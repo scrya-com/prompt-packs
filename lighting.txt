@@ -1,0 +1,398 @@
+# GOLDEN HOUR & SUNRISE
+golden_hour_warm: Golden hour lighting with warm orange hues and long soft shadows
+golden_hour_intense: Intense golden hour with deep amber tones and dramatic shadow stretching
+sunrise_pink_dawn: Soft pink dawn light transitioning to golden warmth
+sunrise_misty: Misty sunrise with diffused warm light filtering through haze
+sunrise_mountain: Mountain sunrise with crisp golden rays cutting through cold air
+sunset_fiery: Fiery sunset with deep red and orange sky reflecting on surfaces
+sunset_pastel: Pastel sunset with soft lavender and peach tones
+sunset_backlit: Backlit sunset silhouette with warm rim light outlining edges
+magic_hour_glow: Magic hour glow with balanced warm and cool tones
+golden_bounce: Golden hour bounce light reflecting off warm surfaces
+
+# BLUE HOUR & TWILIGHT
+blue_hour_cool: Blue hour lighting with cool cerulean tones and low contrast
+blue_hour_city: Urban blue hour with residual sunset warmth against cool sky
+twilight_fade: Twilight fading from warm horizon to deep blue overhead
+twilight_stars: Late twilight with emerging stars and deep indigo atmosphere
+dusk_ambient: Dusk ambient light with soft purple-blue cast
+dusk_streetlights: Dusk with streetlights flickering on against darkening blue sky
+predawn_cold: Cold predawn light with steel-blue tones and faint horizon glow
+
+# MIDDAY & DIRECT SUN
+midday_harsh: Harsh midday sun with strong overhead shadows and high contrast
+midday_tropical: Tropical midday with intense white sunlight and vivid colors
+bright_sun_clean: Clean bright sunlight with crisp defined shadows
+sun_dappled: Dappled sunlight filtering through tree canopy
+sun_through_clouds: Intermittent sunlight with dynamic cloud shadows
+sun_backlit_haze: Backlit haze with sun creating a soft luminous glow
+sun_rim_highlight: Strong sun creating bright rim highlights on edges
+high_noon_bleached: High noon bleached light washing out colors slightly
+desert_sun_harsh: Desert sun with extreme brightness and heat shimmer
+afternoon_warm: Warm afternoon sun with slightly lengthening shadows
+
+# OVERCAST & DIFFUSED
+overcast_soft: Soft overcast lighting with even illumination and no harsh shadows
+overcast_dramatic: Dramatic overcast with heavy clouds creating moody flat light
+cloudy_bright: Bright cloudy day with luminous white sky acting as giant softbox
+diffused_gentle: Gentle diffused light with subtle modeling and soft gradients
+cloud_break: Overcast with occasional sun breaks creating god rays
+flat_grey: Flat grey sky lighting with muted tones and minimal contrast
+hazy_diffused: Hazy diffused atmosphere softening all light sources
+marine_overcast: Marine overcast with cool grey light reflecting off water
+winter_overcast: Winter overcast with cold blue-grey ambient light
+
+# MOONLIGHT & STARLIGHT
+full_moonlight: Full moonlight casting cool blue-white illumination with soft shadows
+crescent_moon: Dim crescent moonlight with deep shadows and barely visible detail
+moonlight_clouds: Moonlight through passing clouds with shifting brightness
+moonlight_water: Moonlight reflecting off water creating shimmering highlights
+starlight_only: Pure starlight with extremely low illumination and inky shadows
+aurora_borealis: Northern lights casting shifting green and purple glow
+moonrise_warm: Warm low moonrise with amber tones near the horizon
+
+# STORM & RAIN
+stormy_lightning: Stormy sky with intermittent lightning flashes illuminating scene
+rain_neon_reflect: Rain-soaked surfaces reflecting neon and artificial lights
+overcast_rain: Dark overcast rain with flat grey diffused lighting
+thunderstorm_flash: Thunderstorm with dramatic lightning bursts freezing action
+drizzle_grey: Light drizzle with grey muted ambient light
+heavy_rain_dark: Heavy downpour with very dark ambient and reflected highlights
+wet_street_glow: Wet street surfaces glowing with reflected city lights
+storm_approaching: Approaching storm with dramatic dark clouds and green-tinged light
+
+# FOG & MIST
+fog_thick: Thick fog diffusing all light into soft volumetric glow
+fog_morning: Morning fog with warm light struggling to penetrate
+mist_forest: Forest mist with beams of light piercing through trees
+fog_streetlight: Fog around streetlights creating soft luminous halos
+mist_harbor: Harbor mist with dim diffused light and silhouetted shapes
+haze_atmospheric: Atmospheric haze with reduced visibility and softened contrasts
+ground_fog: Low-lying ground fog with clear light above and obscured below
+steam_backlit: Backlit steam or mist creating glowing volumetric layers
+
+# THREE-POINT & STUDIO
+three_point_classic: Classic three-point lighting with key, fill, and back light
+three_point_dramatic: Dramatic three-point with strong key and minimal fill
+key_light_hard: Hard key light creating defined shadows and highlights
+key_light_soft: Soft key light with gradual shadow transitions
+fill_light_subtle: Subtle fill light gently lifting shadows without eliminating them
+back_light_rim: Strong back light creating a bright rim around the subject
+hair_light_accent: Accent hair light separating subject from background
+high_key_bright: High-key lighting with bright even illumination and minimal shadows
+low_key_shadow: Low-key lighting with deep shadows and selective illumination
+clamshell_beauty: Clamshell beauty lighting with soft overhead and under-fill
+
+# REMBRANDT & PORTRAIT
+rembrandt_triangle: Rembrandt lighting with signature triangle highlight on shadowed cheek
+rembrandt_candle: Rembrandt-style single candle source creating classic shadow pattern
+split_lighting: Split lighting with half the face lit and half in shadow
+loop_lighting: Loop lighting with small shadow beside the nose
+broad_lighting: Broad lighting illuminating the wider side of the face
+short_lighting: Short lighting illuminating the narrow side of the face
+butterfly_paramount: Butterfly lighting with shadow directly under the nose
+butterfly_glamour: Glamour butterfly lighting with reflector fill from below
+
+# NEON & FLUORESCENT
+neon_pink_blue: Neon lighting with contrasting pink and blue hues
+neon_green: Vivid neon green glow casting colored light on surfaces
+neon_sign_flicker: Flickering neon sign casting intermittent colored light
+fluorescent_harsh: Harsh fluorescent overhead with slight green cast
+fluorescent_office: Cool white fluorescent office lighting with flat even wash
+neon_rain_reflect: Neon reflections on rain-wet pavement
+neon_cyberpunk: Cyberpunk neon with multiple competing colored light sources
+neon_single_color: Single color neon glow bathing scene in monochromatic light
+neon_tube_warm: Warm neon tube light with soft orange-red glow
+led_strip_accent: LED strip accent lighting with customizable color temperature
+
+# SPOTLIGHT & STAGE
+spotlight_single: Single spotlight creating dramatic pool of light
+spotlight_follow: Follow spotlight tracking subject through darkness
+spotlight_overhead: Overhead spotlight creating circular illumination
+stage_concert: Concert stage lighting with colored washes and moving beams
+stage_theatrical: Theatrical stage lighting with gel colors and focused areas
+stage_footlights: Footlights casting upward illumination for dramatic effect
+prison_interrogation: Harsh overhead interrogation lamp in dark room
+searchlight_sweep: Searchlight beam sweeping through darkness
+spot_through_window: Concentrated light beam through a window into dark room
+gobo_pattern: Patterned gobo light casting textured shadows
+
+# BACKLIGHTING & SILHOUETTE
+backlit_silhouette: Strong backlight creating full silhouette of subject
+backlit_rim_soft: Soft backlit rim highlighting edges with subtle glow
+backlit_window: Window backlighting with interior subject in shadow
+backlit_golden: Golden backlight creating warm glowing outline
+contre_jour: Contre-jour shooting into the light with lens effects
+translucent_backlit: Backlighting through translucent materials creating glow
+halo_backlight: Backlight creating angelic halo effect around subject
+sunrise_silhouette: Sunrise backlighting with subject as dark silhouette
+backlit_dust: Backlight revealing floating dust particles
+
+# LED & COLORED GELS
+red_gel_dramatic: Red gel lighting for dramatic intensity
+blue_gel_cold: Cold blue gel lighting creating sterile or eerie atmosphere
+green_gel_toxic: Green gel lighting suggesting toxic or alien environment
+amber_gel_warm: Warm amber gel creating intimate golden atmosphere
+purple_gel_mystical: Purple gel lighting for mystical or supernatural mood
+dual_gel_contrast: Contrasting dual-color gel lighting from opposing sides
+rgb_cycle: RGB lighting cycling through spectrum colors
+color_wash_gradient: Smooth color wash gradient across the scene
+party_strobe: Stroboscopic party lighting with rapid color changes
+uv_blacklight: UV blacklight causing fluorescent materials to glow
+
+# CHIAROSCURO & HIGH CONTRAST
+chiaroscuro_classic: Classic chiaroscuro with extreme light and shadow contrast
+chiaroscuro_candle: Single candle chiaroscuro in otherwise total darkness
+tenebrism_deep: Tenebrism with most of the scene in deep shadow
+dutch_master: Dutch master painting style with rich directional warm light
+caravaggio_dramatic: Caravaggio-inspired dramatic single-source illumination
+film_noir_shadow: Film noir high contrast with venetian blind shadows
+noir_single_source: Single harsh source in darkness creating deep noir shadows
+harsh_contrast_bw: Black and white high contrast lighting with no middle tones
+
+# GOD RAYS & VOLUMETRIC
+god_rays_forest: God rays filtering through forest canopy
+god_rays_window: Volumetric light beams through dusty windows
+god_rays_cathedral: Cathedral light shafts streaming through high windows
+volumetric_fog: Volumetric light beams visible through fog or haze
+volumetric_smoke: Light beams piercing through smoke
+volumetric_dust: Visible light columns in dusty air
+crepuscular_rays: Crepuscular rays fanning out from behind clouds
+underwater_caustics: Underwater caustic light patterns dancing on surfaces
+light_shaft_narrow: Narrow concentrated light shaft in dark space
+
+# LENS FLARE & OPTICAL
+anamorphic_flare: Anamorphic lens flare with horizontal blue streaks
+star_flare: Star-shaped lens flare from bright point source
+soft_bloom: Soft bloom glow around highlights creating dreamy feel
+chromatic_aberration: Subtle chromatic aberration on bright edges
+halation_glow: Halation glow around bright light sources bleeding into shadows
+flare_sunstrike: Direct sun hitting lens creating dramatic flare pattern
+prism_rainbow: Prismatic rainbow light refraction across the scene
+light_leak_warm: Warm light leak effect as if film was exposed
+bokeh_orbs: Out-of-focus light sources creating beautiful bokeh orbs
+
+# NEGATIVE FILL & SHADOW SHAPING
+negative_fill_deep: Deep negative fill removing bounce light for sculpted shadows
+flag_shadow: Flagged shadow cutting light from specific areas
+v_flat_contrast: V-flat negative fill creating contrast on one side
+shadow_gap: Narrow shadow gap technique for edge definition
+subtractive_drama: Subtractive lighting removing fill for increasing drama
+
+# RIM & EDGE LIGHTING
+rim_light_strong: Strong rim light outlining the entire subject edge
+rim_light_subtle: Subtle rim light creating gentle separation from background
+double_rim: Double rim lighting from both sides with dark center
+edge_light_kicker: Edge kicker light highlighting contour from behind
+rim_colored: Colored rim light adding hue to the subject outline
+rim_pulsing: Pulsing rim light with rhythmic intensity variation
+
+# FIRE & FLAME
+campfire_warm: Warm campfire flicker with dancing orange light
+candle_single: Single candle flame casting intimate warm glow with soft shadows
+candle_multiple: Multiple candles creating layered warm light pools
+torch_flame: Torch flame with harsh warm light and deep moving shadows
+fireplace_glow: Fireplace glow with warm amber tones filling the room
+fire_large: Large fire with intense orange-red light and strong flickering
+bonfire_outdoor: Outdoor bonfire with warm light fighting cool night air
+lantern_oil: Oil lantern casting warm contained light with glass reflections
+match_strike: Brief match-strike illumination in darkness
+ember_glow: Dying ember glow with deep red minimal illumination
+
+# PRACTICAL LIGHTS (IN-SCENE SOURCES)
+desk_lamp_pool: Desk lamp creating localized pool of warm light
+overhead_pendant: Pendant light casting downward cone of illumination
+table_lamp_ambient: Table lamp providing warm ambient fill in room
+chandelier_elegant: Chandelier creating sparkle and warm distributed light
+string_lights_festive: String lights creating warm festive scattered illumination
+car_headlights: Car headlights cutting through darkness with strong beams
+phone_screen_face: Phone screen illuminating face from below with cool blue light
+tv_screen_flicker: Television screen casting flickering colored light in dark room
+laptop_glow: Laptop screen glow illuminating face and hands in dim room
+fridge_light: Refrigerator light spilling into dark kitchen
+bathroom_vanity: Bathroom vanity lights creating even frontal illumination
+neon_sign_warm: Warm neon open sign casting orange-red glow through window
+
+# DRAMATIC MOOD
+dramatic_high_contrast: High contrast dramatic lighting with deep blacks and bright highlights
+dramatic_low_angle: Low angle dramatic light casting upward shadows
+dramatic_top_light: Overhead dramatic lighting with deep eye socket shadows
+dramatic_side_harsh: Harsh side lighting revealing texture and creating stark shadows
+dramatic_underlight: Under-lighting creating unsettling upward shadows on face
+dramatic_crosslight: Cross-lighting from two opposing harsh sources
+ominous_dark: Ominous near-darkness with barely visible ambient
+foreboding_green: Foreboding greenish light suggesting danger or the supernatural
+tense_flicker: Tense flickering unstable light source
+
+# MOODY & LOW-KEY
+moody_shadow_deep: Deep shadow mood lighting with minimal illumination
+moody_blue_cast: Blue-cast moody lighting for melancholy atmosphere
+moody_warm_dim: Warm but dim moody lighting for intimate sadness
+moody_fog_glow: Moody fog with distant soft glow
+noir_mystery: Noir mystery lighting with deep shadows and single source
+brooding_overcast: Brooding overcast creating flat somber mood
+somber_twilight: Somber twilight with fading hope in the light
+
+# SERENE & PEACEFUL
+serene_morning: Serene morning light with soft warm golden glow
+serene_diffused: Peaceful soft diffused light with gentle shadows
+zen_minimal: Zen-like minimal lighting with clean soft illumination
+pastoral_afternoon: Pastoral afternoon with warm gentle slanting light
+meditation_glow: Meditation-appropriate soft even ambient glow
+lake_reflection: Calm lake reflecting soft light creating doubled illumination
+garden_dappled: Peaceful garden with dappled sunlight through leaves
+
+# ENERGETIC & VIBRANT
+vibrant_strobe: Vibrant stroboscopic lighting with bursts of color
+vibrant_multi_source: Multiple vibrant colored light sources competing
+electric_blue: Electric blue vibrant lighting with high energy
+party_laser: Laser lights cutting through haze with vivid color
+rave_uv_glow: Rave UV glow with fluorescent materials popping
+festival_stage: Music festival stage with sweeping colored beams
+sports_arena: Bright sports arena lighting with even powerful illumination
+
+# MELANCHOLIC & COOL
+melancholic_blue: Cool blue melancholic lighting deepening sadness
+melancholic_rain: Rain-filtered dim light with cool blue-grey tones
+lonely_streetlamp: Single lonely streetlamp in vast darkness
+cold_fluorescent: Cold institutional fluorescent with lifeless quality
+winter_grey: Winter grey flat light with no warmth
+hospital_sterile: Sterile hospital lighting with cool white clinical feel
+abandoned_dim: Dim light in abandoned space with decay atmosphere
+
+# ROMANTIC & WARM
+romantic_candlelight: Romantic candlelight with warm intimate glow
+romantic_sunset: Romantic sunset with golden warm light on faces
+romantic_fairy_lights: Fairy lights creating soft warm romantic sparkle
+romantic_fireplace: Fireplace warmth creating romantic amber atmosphere
+intimate_dim: Intimate dim warm lighting for close emotional scenes
+golden_embrace: Warm golden light intensifying with emotional closeness
+paris_cafe: Parisian cafe warm lighting with amber pendant glow
+
+# KELVIN TEMPERATURE SHIFTS
+kelvin_2000_candle: 2000K candle-warm deep orange illumination
+kelvin_2700_tungsten: 2700K tungsten warm residential lighting
+kelvin_3200_halogen: 3200K halogen film lighting warm balance
+kelvin_4000_neutral: 4000K neutral white balanced illumination
+kelvin_5000_flash: 5000K flash-equivalent clean white light
+kelvin_5600_daylight: 5600K standard daylight color temperature
+kelvin_6500_overcast: 6500K overcast cool daylight blue shift
+kelvin_7500_shade: 7500K shade blue-cool color cast
+kelvin_10000_blue_sky: 10000K open blue sky very cool illumination
+warm_to_cool_shift: Lighting shifting from warm tungsten indoors to cool daylight outdoors
+cool_to_warm_shift: Transitioning from cool blue exterior to warm interior lighting
+
+# BOKEH & DEPTH
+bokeh_golden_circles: Golden circular bokeh from warm point lights
+bokeh_hexagonal: Hexagonal bokeh from stopped-down aperture
+bokeh_anamorphic_oval: Oval anamorphic bokeh from widescreen lens
+bokeh_busy: Busy bokeh with many overlapping out-of-focus lights
+bokeh_swirly: Swirly bokeh with vintage lens character
+bokeh_foreground: Foreground bokeh with blurred elements in front of subject
+christmas_bokeh: Christmas lights creating colorful circular bokeh
+
+# REFLECTIONS & WATER
+reflection_puddle: Puddle reflections of overhead lights and sky
+reflection_glass: Glass surface reflections doubling the light sources
+reflection_chrome: Chrome surface reflections creating bright specular highlights
+water_caustic: Water caustic patterns dancing across surfaces and walls
+pool_underwater: Underwater pool light creating blue-green illumination
+rain_window: Rain on window refracting and scattering light into patterns
+ice_reflection: Ice surface reflecting and refracting light with prismatic effects
+mirror_bounce: Mirror bouncing light creating secondary illumination
+
+# FLICKERING & UNSTABLE
+flicker_candle_wind: Candle flickering in wind with dancing shadows
+flicker_fluorescent: Malfunctioning fluorescent tube flickering erratically
+flicker_fire_hearth: Hearth fire flicker with warm pulsing light
+flicker_torch_wind: Wind-blown torch with chaotic flame movement
+power_surge: Power surge causing lights to fluctuate dramatically
+dying_bulb: Dying light bulb with intermittent buzzing flicker
+strobe_slow: Slow strobe effect creating stop-motion-like illumination
+electrical_arc: Electrical arc with harsh blue-white flashing
+
+# HARSH VS SOFT TRANSITIONS
+harsh_to_soft_evening: Transitioning from harsh midday to soft evening light
+soft_morning_to_harsh: Soft morning light building to harsh bright midday
+shadow_edge_hard: Hard-edged shadows from small distant light source
+shadow_edge_soft: Soft-edged shadows from large close light source
+contrast_high_to_low: High contrast reducing to low contrast as clouds roll in
+diffusion_increasing: Light becoming increasingly diffused over time
+
+# CINEMATIC REFERENCES
+blade_runner_neon_rain: Blade Runner neon rain with wet reflections and atmospheric haze
+hitchcock_vertigo: Hitchcock Vertigo green-tinged eerie lighting
+kubrick_symmetrical: Kubrick symmetrical cold institutional lighting
+spielberg_backlight: Spielberg signature strong backlighting with lens flare
+fincher_desaturated: Fincher desaturated low-key greenish tones
+wes_anderson_pastel: Wes Anderson pastel-balanced symmetrical warm light
+tarantino_spotlight: Tarantino trunk-shot overhead spotlight
+denis_villeneuve_haze: Villeneuve atmospheric haze with muted orange dust light
+ridley_scott_smoke: Ridley Scott smoky backlit industrial atmosphere
+wong_kar_wai_neon: Wong Kar-wai saturated neon with motion blur warmth
+roger_deakins_natural: Roger Deakins naturalistic motivated lighting
+vittorio_storaro_color: Storaro painterly color-driven lighting palette
+gordon_willis_darkness: Gordon Willis deep shadow with minimal fill
+janusz_kaminski_bleach: Janusz Kaminski bleach bypass desaturated high contrast
+hoyte_van_hoytema_film: Hoyte van Hoytema large format natural film lighting
+emmanuel_lubezki_long: Lubezki natural light long-take golden hour
+bradford_young_shadow: Bradford Young shadow-heavy underexposed intimacy
+
+# FANTASY & SUPERNATURAL
+magic_glow_ethereal: Ethereal magical glow emanating from no visible source
+bioluminescent_blue: Bioluminescent blue-green glow from organic sources
+enchanted_forest: Enchanted forest with mysterious glowing particles
+fairy_dust_sparkle: Fairy dust sparkling with tiny points of light
+ghostly_pale: Ghostly pale translucent illumination suggesting the supernatural
+divine_radiance: Divine radiance with pure white light from above
+demonic_red_underlighting: Demonic red under-lighting with hellish tones
+portal_glow: Supernatural portal emitting swirling colored light
+crystal_refraction: Crystal refracting light into rainbow spectrum shards
+magic_orb: Glowing magic orb casting colored light on surroundings
+
+# SCI-FI & FUTURISTIC
+hologram_blue: Holographic blue light projection flickering in space
+spaceship_console: Spaceship console glow with multiple colored indicators
+warp_speed: Warp speed streaking blue-white light
+alien_bioluminescence: Alien bioluminescent environment with unusual color spectrum
+cryogenic_cold: Cryogenic cold blue-white light with frost and condensation
+laser_grid: Laser grid security lighting with sharp red beams
+plasma_glow: Plasma energy glow with electric blue-purple luminosity
+dystopian_industrial: Dystopian industrial with harsh sodium-orange overhead lamps
+cyberpunk_rain_neon: Cyberpunk rain-soaked street with competing neon sources
+space_station_sterile: Space station sterile white LED with no natural light
+
+# HORROR & SUSPENSE
+horror_single_bulb: Single bare bulb swinging in darkness
+horror_underlight_green: Green-tinged under-lighting for unsettling face illumination
+horror_strobe: Rapid strobe revealing glimpses in darkness
+horror_red_emergency: Red emergency lighting casting everything in blood-red
+horror_flashlight: Handheld flashlight beam cutting through dark space
+horror_tv_static: Static-filled TV screen as only light source in dark room
+horror_candle_blowout: Candle about to blow out with last gasps of light
+creepy_moonlight: Creepy moonlight through broken window slats
+morgue_fluorescent: Cold morgue fluorescent with clinical green undertone
+basement_bare_bulb: Damp basement with single dim bare bulb
+
+# PERIOD & HISTORICAL
+victorian_gaslight: Victorian-era gaslight with warm yellow-orange flicker
+medieval_torchlight: Medieval torch-lit stone corridor with dancing flames
+1940s_tungsten: 1940s tungsten studio lighting with warm film look
+1970s_disco: 1970s disco with mirrored ball and colored spots
+1980s_synth: 1980s synthwave with hot pink and electric blue
+renaissance_window: Renaissance painting north-facing window light
+art_deco_glamour: Art deco era glamour lighting with strong modeling
+silent_film_contrast: Silent film era high contrast expressionist lighting
+daguerreotype_soft: Early photography daguerreotype soft flat light
+
+# ENVIRONMENTAL & NATURAL PHENOMENA
+lightning_strike: Lightning strike momentarily illuminating entire landscape
+volcanic_glow: Volcanic eruption glow with deep red-orange illumination
+northern_lights_dance: Dancing northern lights casting shifting green-purple glow
+eclipse_corona: Solar eclipse corona with eerie dim ambient
+rainbow_after_rain: Post-rain rainbow casting prismatic color across scene
+wildfire_orange: Wildfire casting intense orange smoke-filtered light
+snow_reflection: Fresh snow reflecting and amplifying available light
+sandstorm_amber: Sandstorm filtering sunlight into deep amber haze
+tornado_dark_green: Pre-tornado dark greenish-yellow threatening sky light
+bioluminescent_ocean: Bioluminescent ocean waves glowing blue-green at night

@@ -1,0 +1,318 @@
+# Episode Interactive-Style Pixel Art Character Prompts
+# 250 diverse characters for animation generation
+# Format: ID | Name | Category | Base Prompt
+#
+# Categories: protagonist, love_interest, friend, villain, authority, professional, casual, supernatural
+#
+# Style Guidelines:
+# - Modern contemporary clothing (Episode Interactive aesthetic)
+# - Clear silhouettes for pixel art readability
+# - Fashion-forward, trendy outfits
+# - Diverse demographics (ethnicity, age, body type)
+# - Full body, front-facing for T-pose generation
+
+# =============================================================================
+# FEMALE PROTAGONISTS (1-15)
+# =============================================================================
+1 | Emma Classic | protagonist | Young woman with long wavy brown hair, green eyes, casual white t-shirt, blue jeans, white sneakers, friendly expression
+2 | Maya Confident | protagonist | Young Black woman with curly natural hair, confident pose, red crop top, high-waisted black pants, gold hoop earrings
+3 | Lily Shy | protagonist | Young Asian woman with straight black hair in low ponytail, glasses, oversized pink sweater, pleated skirt, mary jane shoes
+4 | Zoe Edgy | protagonist | Young woman with dyed purple asymmetric hair, nose piercing, leather jacket, band t-shirt, ripped black jeans, combat boots
+5 | Sofia Elegant | protagonist | Young Latina woman with long dark hair, elegant makeup, silk blouse, tailored pants, heels, pearl earrings
+6 | Chloe Sporty | protagonist | Young woman with blonde ponytail, athletic build, sports bra, leggings, running shoes, fitness tracker
+7 | Ava Preppy | protagonist | Young woman with auburn hair and headband, polo shirt, plaid skirt, loafers, pearl necklace
+8 | Mia Boho | protagonist | Young woman with long wavy auburn hair, flowy floral dress, layered necklaces, sandals, dreamcatcher earrings
+9 | Luna Alternative | protagonist | Young woman with half-shaved head, remaining hair dyed teal, multiple ear piercings, vintage band tee, plaid flannel
+10 | Jade Urban | protagonist | Young mixed-race woman with box braids, streetwear hoodie, joggers, chunky sneakers, minimal jewelry
+11 | Riley Tomboy | protagonist | Young woman with short messy hair, oversized flannel, cargo pants, high-top sneakers, backwards cap
+12 | Ivy Vintage | protagonist | Young woman with victory rolls hairstyle, polka dot dress, red lipstick, retro aesthetic
+13 | Willow Artsy | protagonist | Young woman with paint-stained overalls, messy bun, beret, art supplies in pocket
+14 | Harper Minimalist | protagonist | Young woman with sleek bob haircut, monochrome outfit, clean lines, modern aesthetic
+15 | Quinn Gamer | protagonist | Young woman with dyed streaks in hair, gaming headset around neck, graphic tee, comfortable shorts
+
+# =============================================================================
+# MALE PROTAGONISTS (16-30)
+# =============================================================================
+16 | Ethan Classic | protagonist | Young man with short brown hair, blue eyes, casual henley shirt, dark jeans, white sneakers
+17 | Marcus Confident | protagonist | Young Black man with fade haircut, confident expression, fitted polo shirt, chinos, clean sneakers, silver chain
+18 | Jason Athletic | protagonist | Young man with short blonde hair, athletic build, letterman jacket, t-shirt, jeans, high-top sneakers
+19 | Kai Artistic | protagonist | Young Asian man with messy black hair, paint-stained hoodie, rolled-up jeans, converse, messenger bag
+20 | Diego Charming | protagonist | Young Latino man with dark wavy hair, warm brown eyes, button-up shirt sleeves rolled, fitted pants, leather boots
+21 | Tyler Casual | protagonist | Young man with sandy hair, relaxed expression, graphic tee, cargo shorts, vans, backwards cap
+22 | Noah Nerdy | protagonist | Young man with glasses, neat brown hair, cardigan over button-up, slacks, oxfords, slightly awkward smile
+23 | Ryan Rebel | protagonist | Young man with dark messy hair, stubble, leather jacket, white t-shirt, black jeans, motorcycle boots
+24 | Liam Preppy | protagonist | Young man with perfectly styled hair, cable-knit sweater, chinos, boat shoes, clean-cut appearance
+25 | Aiden Skater | protagonist | Young man with shaggy hair, beanie, graphic hoodie, ripped jeans, vans, skateboard under arm
+26 | Cole Mysterious | protagonist | Young man with dark hair falling over one eye, black turtleneck, dark jeans, boots, enigmatic expression
+27 | Blake Country | protagonist | Young man with sun-kissed hair, plaid shirt, worn jeans, cowboy boots, warm genuine smile
+28 | Finn Hipster | protagonist | Young man with man-bun, beard, flannel over band tee, skinny jeans, chelsea boots
+29 | Max Sporty | protagonist | Young man with athletic build, track jacket, joggers, running shoes, energetic expression
+30 | Drew Indie | protagonist | Young man with curly hair, vintage glasses, thrifted cardigan, slim pants, doc martens
+
+# =============================================================================
+# BAD BOY LOVE INTERESTS (31-40)
+# =============================================================================
+31 | Damien Bad Boy | love_interest | Tall young man with dark tousled hair, intense green eyes, leather jacket, black t-shirt, silver rings, motorcycle boots
+32 | Xavier Mysterious | love_interest | Tall young man with slicked-back dark hair, sharp features, black turtleneck, tailored coat, expensive watch
+33 | Axel Biker | love_interest | Muscular young man with tattoo sleeves, undercut hairstyle, tank top, jeans, heavy boots, chain wallet
+34 | Jace Trouble | love_interest | Young man with scar on eyebrow, messy dark hair, worn leather jacket, cigarette behind ear, brooding expression
+35 | Ryder Outlaw | love_interest | Young man with stubble, dark wavy hair, denim jacket with patches, ripped jeans, silver skull rings
+36 | Phoenix Rebel | love_interest | Young man with dyed black hair, lip piercing, band merch, combat boots, intense gaze
+37 | Zane Dangerous | love_interest | Tall young man with sharp jawline, dark clothing, silver chain, calculating eyes, smirk
+38 | Maverick Wild | love_interest | Young man with windswept hair, open leather vest, jeans, motorcycle gloves, devil-may-care attitude
+39 | Knox Fighter | love_interest | Young man with bruised knuckles, athletic build, tank top, sweats, boxer aesthetic
+40 | Blaze Intense | love_interest | Young man with fire-red hair, intense amber eyes, black jacket, dark jeans, passionate energy
+
+# =============================================================================
+# BAD GIRL LOVE INTERESTS (41-50)
+# =============================================================================
+41 | Raven Bad Girl | love_interest | Young woman with long black hair with red streaks, dark makeup, crop top, leather pants, platform boots
+42 | Scarlett Dangerous | love_interest | Young woman with red hair, cat-eye makeup, red dress, stilettos, diamond earrings, seductive vibe
+43 | Viper Fierce | love_interest | Young woman with slicked-back dark hair, sharp features, all-black outfit, gold accents, intimidating beauty
+44 | Storm Wild | love_interest | Young woman with white-blonde hair, dark roots, edgy makeup, ripped band tee, combat boots
+45 | Elektra Deadly | love_interest | Young woman with sleek black hair, leather bodysuit aesthetic, mysterious allure
+46 | Jinx Chaos | love_interest | Young woman with bright colored hair in space buns, chaotic makeup, punk aesthetic, mischievous grin
+47 | Siren Tempting | love_interest | Young woman with flowing dark hair, hypnotic eyes, form-fitting dress, dangerous beauty
+48 | Hex Dark | love_interest | Young woman with dark gothic style, black lipstick, corset top, long skirt, witchy aesthetic
+49 | Blade Sharp | love_interest | Young woman with undercut hairstyle, multiple piercings, tactical clothing, fierce expression
+50 | Onyx Mysterious | love_interest | Young woman with dark skin and darker aesthetic, elegant gothic style, silver jewelry, enigmatic presence
+
+# =============================================================================
+# SWEET LOVE INTERESTS (51-65)
+# =============================================================================
+51 | Oliver Sweet | love_interest | Kind-looking young man with wavy brown hair, warm eyes, cozy sweater, khakis, boat shoes, genuine warm smile
+52 | Grace Sunshine | love_interest | Young woman with bright blonde hair, freckles, sundress, cardigan, ballet flats, infectious cheerful smile
+53 | Leo Gentleman | love_interest | Handsome young man with neat dark hair, classic style, blazer, oxford shirt, dress pants, charming dimples
+54 | Rosie Cute | love_interest | Petite young woman with pink-tinted hair, rosy cheeks, pastel sweater, pleated skirt, ankle boots
+55 | Sam Wholesome | love_interest | Young man with friendly features, flannel shirt, well-worn jeans, work boots, warm genuine expression
+56 | Daisy Bright | love_interest | Young woman with flower crown in blonde hair, flowy summer dress, sandals, pure joyful energy
+57 | Miles Kind | love_interest | Young man with gentle eyes, soft cardigan, comfortable jeans, loafers, approachable demeanor
+58 | Poppy Cheerful | love_interest | Young woman with bouncy auburn curls, yellow sundress, white sneakers, bright personality
+59 | Finn Caring | love_interest | Young man with messy brown hair, soft smile, cozy hoodie, jeans, sneakers, protective energy
+60 | Lily Gentle | love_interest | Young Asian woman with soft features, pastel colors, gentle smile, delicate jewelry
+61 | Charlie Sweet | love_interest | Young man with dimples, easy smile, casual button-down, rolled sleeves, relaxed jeans
+62 | Ruby Warm | love_interest | Young woman with warm brown skin, natural curls, earth-tone dress, gold accessories
+63 | Henry Classic | love_interest | Young man with traditional handsome features, polo shirt, chinos, loafers, boy-next-door charm
+64 | Autumn Cozy | love_interest | Young woman with red hair, oversized sweater, leggings, boots, coffee in hand
+65 | Theo Tender | love_interest | Young man with soft features, glasses, cable-knit sweater, slacks, thoughtful expression
+
+# =============================================================================
+# RICH/ELITE LOVE INTERESTS (66-80)
+# =============================================================================
+66 | Sebastian Rich | love_interest | Tall young man with perfectly styled dark hair, designer suit, expensive watch, cufflinks, aristocratic features
+67 | Victoria Elite | love_interest | Young woman with sleek blonde updo, designer dress, diamond jewelry, Louboutin heels, sophisticated beauty
+68 | Kingston Heir | love_interest | Young man with light brown hair, preppy blazer, polo, chinos, boat shoes, trust fund aura
+69 | Arabella Socialite | love_interest | Young woman with flowing caramel hair, couture gown, statement jewelry, perfect posture
+70 | Julian Wealthy | love_interest | Young man with golden hair, tailored vest, silk tie, designer watch, old money charm
+71 | Genevieve Heiress | love_interest | Young woman with elegant dark hair, designer everything, pearls, refined taste
+72 | Maximilian Prince | love_interest | Young man with regal bearing, tailored blazer, family crest pin, commanding presence
+73 | Cordelia Elegant | love_interest | Young woman with upswept hair, elegant gown, diamond choker, graceful movements
+74 | Alexander III | love_interest | Young man with aristocratic features, expensive casual wear, yacht club aesthetic
+75 | Serena Refined | love_interest | Young woman with blonde waves, tennis whites, country club style, effortless elegance
+76 | Constantine Old Money | love_interest | Young man with dark hair, three-piece suit, pocket watch, generational wealth aura
+77 | Penelope Posh | love_interest | Young woman with perfectly coiffed hair, Chanel-inspired outfit, quilted bag
+78 | Sterling Privileged | love_interest | Young man with silver-blonde hair, preppy style, rowing blazer, inherited confidence
+79 | Anastasia Princess | love_interest | Young woman with long dark hair, elegant dress, tiara-worthy posture, royal bearing
+80 | Fitzgerald Gatsby | love_interest | Young man with golden-age glamour, white suit, champagne energy, mysterious wealth
+
+# =============================================================================
+# BEST FRIENDS (81-100)
+# =============================================================================
+81 | Bestie Jenna | friend | Young woman with bouncy brown hair, bright smile, cute top, high-waisted jeans, supportive loyal energy
+82 | BFF Marcus | friend | Young Black man with friendly face, hoodie, jeans, sneakers, always-there-for-you vibe
+83 | Ride-or-Die Sam | friend | Young person with casual style, genuine smile, comfortable clothes, trustworthy dependable energy
+84 | Party Friend Mika | friend | Young woman with dyed hair, glitter makeup, club outfit, platform heels, fun wild energy
+85 | Childhood Friend Chris | friend | Young man with familiar comfortable style, nostalgic vibes, knows-all-your-secrets expression
+86 | Wise Friend Sage | friend | Young nonbinary person with calming presence, earth-tone clothes, crystals, advice-giver energy
+87 | Hype Friend Destiny | friend | Enthusiastic young woman with bold fashion, bright colors, cheerleader energy
+88 | Loyal Theo | friend | Steadfast young man with honest face, practical clothes, protective best friend vibes
+89 | Sarcastic Quinn | friend | Young woman with deadpan expression, ironic t-shirt, eye-roll ready, secretly caring
+90 | Funny Guy Pete | friend | Goofy young man with messy hair, graphic tee with pun, always-joking expression
+91 | Brainiac Bella | friend | Smart young woman with glasses, neat appearance, book in hand, homework-helper energy
+92 | Tech Genius Omar | friend | Young man with programmer aesthetic, gaming references, gadgets, problem-solver vibes
+93 | Popular Girl Stacy | friend | Glamorous young woman with perfect hair, trendy outfit, social-butterfly energy
+94 | Gym Buddy Jake | friend | Athletic young man with workout gear, protein shake, gym-partner energy
+95 | Shopping Bestie Lola | friend | Fashionable young woman with shopping bags, trend-spotter energy
+96 | Study Partner Aiden | friend | Focused young man with notebooks, caffeine, study-mode energy
+97 | Adventure Friend Rio | friend | Outdoorsy young person with hiking gear, spontaneous energy
+98 | Quirky Luna | friend | Eccentric young woman with mismatched fashion, unusual accessories, delightfully weird
+99 | Drama Queen Derek | friend | Over-the-top young man with flamboyant style, theatrical gestures
+100 | Chill Friend Jordan | friend | Relaxed young person with laid-back style, go-with-flow energy, easygoing expression
+
+# =============================================================================
+# MEAN GIRLS/GUYS (101-115)
+# =============================================================================
+101 | Mean Girl Madison | villain | Beautiful but cruel young woman with perfect hair, designer clothes, judgmental sneer
+102 | Queen Bee Brittany | villain | Popular young woman with intimidating presence, expensive everything, rules-the-school energy
+103 | Bully Brandon | villain | Aggressive young man with varsity jacket, threatening posture, picks-on-everyone energy
+104 | Gossip Heather | villain | Young woman with fake smile, phone ready for rumors, two-faced energy
+105 | Social Climber Veronica | villain | Ambitious young woman with calculating eyes, uses-people-to-get-ahead energy
+106 | Rich Snob Tiffany | villain | Wealthy young woman with designer outfit, nose in air, superior attitude
+107 | Jock Bully Chad | villain | Athletic young man with letterman jacket, smug expression, intimidating size
+108 | Backstabber Megan | villain | Young woman with sweet facade, manipulative eyes, ready to betray
+109 | Class President Blake | villain | Young man with perfect appearance, power-hungry smile, political ambition
+110 | Drama Starter Ashley | villain | Young woman who thrives on conflict, stirring-trouble expression
+111 | Toxic Ex Derek | villain | Handsome young man with charming but manipulative expression
+112 | Jealous Rival Jasmine | villain | Beautiful young woman with envious expression, competitive stance
+113 | Clique Leader Kendra | villain | Young woman surrounded by followers, ice-queen demeanor
+114 | Trust Fund Brat Preston | villain | Young man with entitled expression, expensive casual wear, bratty attitude
+115 | Fake Friend Nicole | villain | Young woman with betrayer energy, pretends-to-care manipulation
+
+# =============================================================================
+# CRIMINAL/DANGEROUS VILLAINS (116-130)
+# =============================================================================
+116 | Con Artist Roxy | villain | Charming young woman with deceptive beauty, grifter energy, trust-no-one vibes
+117 | Hacker Cypher | villain | Mysterious figure with hoodie, digital aesthetic, knows-your-secrets energy
+118 | Gang Leader Viper | villain | Dangerous young person with street authority, tattoos, intimidating presence
+119 | Thief Carmen | villain | Sleek young woman with cat burglar elegance, mysterious shadowy presence
+120 | Corrupt Cop Officer Black | villain | Authority figure with badge, abuse-of-power energy, threatening smile
+121 | Gaslighter Garrett | villain | Charming young man with hidden cruelty, makes-you-question-reality energy
+122 | Gold Digger Vivian | villain | Beautiful young woman with expensive taste, after-your-money energy
+123 | Puppet Master Preston | villain | Calculating young man with innocent facade, controls-from-shadows energy
+124 | Blackmailer Blake | villain | Young person with leverage, knows-your-secrets, threatening undertones
+125 | Stalker Shadow | villain | Obsessive figure with watching eyes, unsettling presence
+126 | Drug Dealer Snake | villain | Shady young man with street corner aesthetic, dangerous connections
+127 | Cult Leader Ezra | villain | Charismatic young person with mesmerizing presence, dangerous following
+128 | Corrupt Politician Jr | villain | Young man with polished appearance hiding corruption, false-promises energy
+129 | Evil CEO Sterling | villain | Ruthless businessman with cold eyes, profit-over-people energy
+130 | Femme Fatale Delilah | villain | Dangerously beautiful woman with seduction as weapon, deadly elegance
+
+# =============================================================================
+# AUTHORITY FIGURES (131-150)
+# =============================================================================
+131 | Supportive Mom Linda | authority | Warm middle-aged woman with mom jeans, cardigan, loving supportive expression
+132 | Strict Dad Robert | authority | Stern middle-aged man with business casual, protective-but-tough energy
+133 | Cool Mom Jackie | authority | Young-looking mom with trendy style, friend-first energy
+134 | Absent Father Richard | authority | Distant middle-aged man with work clothes, always-busy energy
+135 | Favorite Teacher Mr. Chen | authority | Kind middle-aged man with glasses, tweed jacket, inspiring-mentor energy
+136 | Strict Professor Dr. Hayes | authority | Intimidating woman with severe appearance, high-standards energy
+137 | Cool Teacher Ms. Rivera | authority | Young teacher with modern style, relatable-educator energy
+138 | Dream Boss Alexandra | authority | Successful woman with power suit, mentorship energy
+139 | Nightmare Boss Gerald | authority | Demanding man with corporate look, impossible-standards energy
+140 | Kind Detective Reyes | authority | Approachable detective with badge, trustworthy-investigator energy
+141 | Tough Cop Officer Santos | authority | No-nonsense officer with uniform, by-the-book energy
+142 | Kind Doctor Martinez | authority | Compassionate doctor with white coat, good-news energy
+143 | Therapist Dr. Wells | authority | Calming presence with professional warmth, safe-space energy
+144 | Coach Thompson | authority | Athletic middle-aged man with whistle, tough-love energy
+145 | Principal Morrison | authority | Stern but fair administrator with professional attire
+146 | Guidance Counselor Dr. Foster | authority | Approachable professional with college-prep energy
+147 | Nurse Betty | authority | Friendly older woman with first-aid ready, caring energy
+148 | Librarian Ms. Reed | authority | Quiet woman with glasses, knowledge-keeper energy
+149 | Security Guard Mike | authority | Friendly uniformed man with watchful-but-kind energy
+150 | School Counselor Mrs. Park | authority | Warm woman with comforting presence, here-to-help energy
+
+# =============================================================================
+# PROFESSIONALS (151-175)
+# =============================================================================
+151 | Hot Doctor Hayes | professional | Attractive young doctor with white coat, stethoscope, competent-and-caring energy
+152 | Lawyer Victoria | professional | Sharp young woman with power suit, courtroom-ready energy
+153 | Entrepreneur Zoe | professional | Young businesswoman with startup-chic style, founder energy
+154 | Artist Indie | professional | Creative young person with paint-stained clothes, gallery-show energy
+155 | Photographer Leo | professional | Young man with camera around neck, creative-eye energy
+156 | Fashion Designer Vera | professional | Stylish young woman with avant-garde fashion, runway-ready energy
+157 | Writer Elena | professional | Thoughtful young woman with notebook, story-in-eyes energy
+158 | Musician Jake | professional | Young man with guitar case, rockstar-dreams energy
+159 | Barista Sage | professional | Friendly young person with apron, coffee-art energy
+160 | Bartender Max | professional | Charismatic young man with mixology skills, nightlife energy
+161 | Chef Marco | professional | Young chef with whites and hat, culinary-passion energy
+162 | Personal Trainer Jade | professional | Fit young woman with athletic wear, motivation energy
+163 | Software Developer Quinn | professional | Young programmer with hoodie, code-wizard energy
+164 | Firefighter Jake | professional | Brave young man with firefighter gear, rescue-hero energy
+165 | Military Owen | professional | Young soldier with uniform, duty-and-honor energy
+166 | Pilot Captain Sarah | professional | Young woman with pilot uniform, sky-high-dreams energy
+167 | Pop Star Ariana | professional | Young singer with stage-ready glam, superstar energy
+168 | Actor Hollywood Chris | professional | Handsome young actor with red-carpet style
+169 | Model Giselle | professional | Stunning young woman with high-fashion presence
+170 | Influencer Kylie | professional | Young woman with perfect aesthetic, followers-energy
+171 | YouTuber Marcus | professional | Young content creator with vlogger style
+172 | Football Star Quarterback | professional | Athletic young man with jersey, game-day energy
+173 | Basketball Player Jordan | professional | Tall athletic young person with basketball gear
+174 | Cheerleader Captain | professional | Energetic young woman with cheer uniform, spirit energy
+175 | Dancer Misty | professional | Graceful young woman with dancer physique, ballet energy
+
+# =============================================================================
+# SUPERNATURAL CHARACTERS (176-200)
+# =============================================================================
+176 | Vampire Lucian | love_interest | Pale young man with dark hair, Victorian-inspired dark clothing, intense red-tinted eyes, immortal beauty
+177 | Werewolf Jace | love_interest | Rugged young man with wild hair, torn flannel, jeans, barefoot energy, animalistic magnetism
+178 | Angel Seraphina | love_interest | Ethereal young woman with platinum hair, flowing white dress, subtle glow, otherworldly beauty
+179 | Demon Dante | love_interest | Darkly handsome man with black hair, crimson accents, sharp features, tempting presence
+180 | Fae Prince Oberon | love_interest | Otherworldly beautiful man with pointed features, silver hair, elegant dark green outfit
+181 | Witch Modern Willow | protagonist | Young modern witch with witchy aesthetic, black clothes, crystal jewelry, subtle-magic energy
+182 | Ghost Cassidy | supernatural | Translucent young woman with pale features, flowing dress, ethereal sadness
+183 | Shapeshifter Luna | supernatural | Young person with ever-changing features, fluid style, mysterious energy
+184 | Mermaid Marina | supernatural | Young woman with sea-green hair, iridescent scales, ocean-eyes, aquatic beauty
+185 | Fairy Pixie | supernatural | Tiny winged young woman with glowing aura, flower-petal dress, magical sparkle
+186 | Zombie Zara | supernatural | Pale young woman with dark circles, torn vintage dress, undead elegance
+187 | Reaper Grim | supernatural | Dark figure with hood and cloak, mysterious face, death-and-duty energy
+188 | Phoenix Flame | supernatural | Young person with fiery red-gold hair, flame-like clothing, rebirth energy
+189 | Elemental Storm | supernatural | Young person with stormy gray eyes, weather-touched clothing, electric energy
+190 | Psychic Crystal | protagonist | Young person with mystical accessories, third-eye aesthetic, sixth-sense energy
+191 | Ghost Hunter | protagonist | Young investigator with paranormal-gear, brave-explorer energy
+192 | Evil Witch Malvina | villain | Dark beautiful woman with gothic elegance, magical menace, curse-ready energy
+193 | Vampire Lord Viktor | villain | Pale aristocratic man with dangerous elegance, predator energy
+194 | Demon Queen Lilith | villain | Seductive dangerous woman with dark power, temptation incarnate
+195 | Dark Fae Morrigan | villain | Otherworldly beautiful with cruel beauty, trickster energy
+196 | Necromancer Dark | villain | Pale figure with dark robes, death magic aesthetic, unsettling presence
+197 | Siren Song | villain | Beautiful sea creature with hypnotic voice energy, luring danger
+198 | Incubus Shadow | villain | Darkly attractive man with seductive supernatural presence
+199 | Succubus Desire | villain | Dangerously beautiful woman with demonic allure
+200 | Fallen Angel Azrael | supernatural | Beautiful but tortured figure with dark wings, fallen-from-grace energy
+
+# =============================================================================
+# DIVERSE REPRESENTATION (201-225)
+# =============================================================================
+201 | Curvy Queen Bianca | protagonist | Beautiful plus-size woman with confident style, body-positive energy
+202 | Big Guy Bruno | protagonist | Large friendly man with gentle-giant energy, warm smile
+203 | Thick and Confident Tasha | love_interest | Gorgeous curvy Black woman with bold fashion, own-every-room energy
+204 | Husky Hero Henry | love_interest | Larger young man with teddy-bear charm, protective energy
+205 | Wheelchair User Maya | protagonist | Young woman in wheelchair with determined independence, stylish appearance
+206 | Deaf Character Danny | protagonist | Young person with hearing aids, expressive face, visual-communication energy
+207 | Blind Character Belle | protagonist | Young woman with sunglasses, white cane, heightened-senses energy
+208 | Prosthetic Limb Hero | protagonist | Young person with prosthetic arm, adaptive-strength energy, confident pose
+209 | Hijabi Fatima | protagonist | Young Muslim woman with stylish hijab, faith-and-fashion energy
+210 | Sikh Arjun | protagonist | Young Sikh man with turban, traditional-meets-modern energy
+211 | Indigenous Maya | protagonist | Young Native woman with cultural jewelry, heritage-honor energy
+212 | African Traditional Amara | protagonist | Young African woman with cultural dress elements, heritage-beauty energy
+213 | Gay Best Friend Marcus | friend | Young gay man with fabulous style, supportive-slay energy
+214 | Lesbian Love Interest Dana | love_interest | Young woman with confident queer style, authentic-attraction energy
+215 | Bisexual Lead Riley | protagonist | Young bisexual person with fluid style, open-to-love energy
+216 | Trans Character Jamie | protagonist | Young trans person with authentic self-expression, confident style
+217 | Nonbinary Icon Morgan | protagonist | Nonbinary person with androgynous fashion, beyond-binary energy
+218 | Mature Romance Richard | love_interest | Distinguished older man with silver-fox energy, salt-and-pepper hair
+219 | Cougar Caroline | love_interest | Attractive older woman with sophisticated allure, confident elegance
+220 | Albino Character Ash | protagonist | Young person with white hair, pale skin, light eyes, unique beauty
+221 | Vitiligo Character Zara | protagonist | Young woman with vitiligo skin patterns, embracing-uniqueness energy
+222 | Short King Kevin | protagonist | Shorter young man with confident energy, stylish despite height
+223 | Tall Queen Gwendolyn | protagonist | Very tall young woman with statuesque elegance, owning-height energy
+224 | Ginger Pride Rowan | protagonist | Young person with bright red hair, freckles, fiery personality
+225 | Ambiguous Ethnicity Alex | protagonist | Young person with ethnically ambiguous features, universal appeal
+
+# =============================================================================
+# EVERYDAY CHARACTERS (226-250)
+# =============================================================================
+226 | Girl Next Door | casual | Wholesome young woman with friendly-neighbor energy, approachable style
+227 | Boy Next Door | casual | Friendly young man with approachable-neighbor energy, casual comfort
+228 | Hot New Neighbor | casual | Attractive new resident with mysterious-newcomer energy
+229 | Office Crush | casual | Attractive coworker with professional-but-cute energy
+230 | Work Rival | casual | Competitive coworker with promotion-hungry energy
+231 | Older Sibling | casual | Protective older sibling with been-there-done-that energy
+232 | Younger Sibling | casual | Annoying younger sibling with tag-along energy
+233 | Cool Cousin | casual | Fun relative with exciting-family-gatherings energy
+234 | Grandmother | casual | Loving elderly woman with baking-and-wisdom energy
+235 | Grandfather | casual | Kind elderly man with stories-to-tell energy
+236 | Cute Stranger | casual | Attractive unknown person with meet-cute-potential energy
+237 | Mysterious Stranger | casual | Intriguing unknown person with secrets energy
+238 | Uber Driver | casual | Friendly driver with conversation-starter energy
+239 | Delivery Person | casual | Efficient worker with package-in-hand energy
+240 | Store Clerk | casual | Retail worker with customer-service energy
+241 | Street Performer | casual | Creative person with entertainment energy
+242 | Food Vendor | casual | Friendly vendor with delicious-food energy
+243 | Freshman Newbie | casual | Young nervous student with first-day-of-school energy
+244 | Senior Veteran | casual | Confident older student with senioritis energy
+245 | Transfer Student | casual | New student with uncertain expression, fish-out-of-water energy
+246 | International Student | casual | Foreign student with cultural-mix style, new-to-country energy
+247 | Art School Student | casual | Creative student with unique style, art-supplies energy
+248 | Modern Prince | love_interest | Young royal with expensive casual, prince-charming energy
+249 | Modern Princess | love_interest | Young royal woman with elegant-casual, princess-dreams energy
+250 | Secret Royal | love_interest | Hidden royalty with humble-disguise, reveal-waiting energy

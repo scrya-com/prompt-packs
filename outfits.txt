@@ -1,0 +1,77 @@
+# FEMALE OUTFITS
+crop_top_midriff: Crop Top, Midriff Baring
+short_dress: Short Dress, Leggy Sophistication
+denim_jacket_floral: Denim Jacket and Floral Dress
+blouse_midi_heels: Blouse, Midi Skirt, and Heels
+graphic_tee_boyfriend: Graphic T-Shirt and Boyfriend Jeans
+blazer_skinny_pumps: Blazer, Skinny Pants, and Pumps
+sweater_dress_boots: Sweater Dress and Knee-High Boots
+crop_top_shorts_sandals: Crop Top, High-Waisted Shorts, and Sandals
+turtleneck_aline_boots: Turtleneck, A-Line Skirt, and Ankle Boots
+offshoulder_widelegs: Off-Shoulder Top and Wide-Leg Pants
+buttonup_tapered: Button-Up Shirt and Tapered Trousers
+leather_jacket_tee_jeans: Leather Jacket, White T-Shirt, and Black Jeans
+boho_maxi_gladiator: Boho Print Maxi Dress and Gladiator Sandals
+peplum_pencil_flats: Peplum Top, Pencil Skirt, and Pointed-toe Flats
+striped_sweater_denim: Striped Sweater, Denim Skirt, and Sneakers
+wrap_blouse_culottes: Wrap Blouse, Culottes, and Mules
+ruffled_pleated_ballet: Ruffled Blouse, Pleated Skirt, and Ballet Flats
+jumpsuit_belt: Jumpsuit and Statement Belt
+lace_top_pants_wedges: Lace Top, High-Waisted Pants, and Wedges
+silk_cami_jeans_stilettos: Silk Camisole, Skinny Jeans, and Stilettos
+oversized_sweater_leggings: Oversized Sweater and Leggings
+floral_blouse_shorts: Floral Blouse, Denim Shorts, and Espadrilles
+plaid_shirt_combat: Plaid Shirt, Denim Skirt, and Combat Boots
+sheath_dress_heels: Sheath Dress and Nude Heels
+crop_sweater_midi: Crop Sweater, Midi Skirt, and Sneakers
+utility_jacket_dress: Utility Jacket, T-Shirt Dress, and Ankle Boots
+lace_dress_peeptoe: Lace Dress and Peep-toe Heels
+wideleg_jumpsuit_heels: Blouse, Wide-Leg Jumpsuit, and Block Heels
+striped_top_trousers: Striped Top, Cropped Trousers, and Loafers
+chambray_white_jeans: Chambray Shirt, White Jeans, and Sandals
+floral_romper_wedges: Floral Romper and Wedge Sandals
+puffer_leggings_chunky: Puffer Jacket, Leggings, and Chunky Sneakers
+turtleneck_leather_booties: Turtleneck Sweater, Leather Pants, and Booties
+offshoulder_blouse_pumps: Off-Shoulder Blouse, Skinny Pants, and Pumps
+cropped_denim_floral: Cropped Denim Jacket, Floral Skirt, and Converse
+sequin_top_trousers: Sequin Top, Black Trousers, and Pointed-toe Pumps
+boho_jumpsuit_platforms: Boho Print Jumpsuit and Platform Sandals
+cardigan_midi_ballet: Cardigan, Midi Dress, and Ballet Flats
+wrap_dress_block_heels: Wrap Dress and Block Heel Sandals
+knit_sweater_leather: Knit Sweater, Leather Leggings, and Ankle Boots
+moto_jacket_slip: Moto Jacket, Slip Dress, and Combat Boots
+blazer_cami_wideleg: Blazer, Camisole, and Wide-Leg Trousers
+offshoulder_dress_strappy: Off-Shoulder Dress and Strappy Heels
+lace_blouse_pencil_stilettos: Lace Blouse, Pencil Skirt, and Stiletto Heels
+
+# MALE OUTFITS
+tailored_suit_oxfords: Tailored Suit, White Dress Shirt, and Oxford Shoes
+leather_jacket_tee_darkjeans: Leather Jacket, Plain T-Shirt, and Dark Jeans
+blazer_chinos_loafers: Blazer, Chinos, and Loafers
+henley_slim_chelsea: Henley Shirt, Slim Jeans, and Chelsea Boots
+polo_khaki_boat: Polo Shirt, Khaki Shorts, and Boat Shoes
+denim_jacket_graphic: Denim Jacket, Graphic Tee, and Black Jeans
+cardigan_buttondown_dress: Cardigan, Button-Down Shirt, and Dress Pants
+hoodie_joggers_sneakers: Hoodie, Joggers, and Sneakers
+bomber_tee_chinos: Bomber Jacket, Plain Tee, and Chinos
+vneck_collared_slacks: V-Neck Sweater, Collared Shirt, and Slacks
+flannel_tee_distressed: Flannel Shirt, White Tee, and Distressed Jeans
+peacoat_turtleneck_wool: Peacoat, Turtleneck, and Wool Trousers
+linen_rolled_espadrilles: Linen Shirt, Rolled Chinos, and Espadrilles
+track_athletic_running: Track Jacket, Athletic Pants, and Running Shoes
+chambray_darkjeans_desert: Chambray Shirt, Dark Jeans, and Desert Boots
+tuxedo_bowtie_patent: Tuxedo, Bow Tie, and Patent Leather Shoes
+quilted_vest_cargo: Quilted Vest, Long-Sleeve Tee, and Cargo Pants
+cable_knit_corduroys: Cable Knit Sweater, Corduroys, and Brogues
+motorcycle_jacket_boots: Motorcycle Jacket, Black Jeans, and Boots
+sport_coat_polo: Sport Coat, Polo, and Dress Shoes
+crewneck_jeans_white: Crewneck Sweater, Jeans, and White Sneakers
+suede_jacket_monks: Suede Jacket, Slim Fit Pants, and Monk Straps
+parka_henley_cargo: Parka, Thermal Henley, and Cargo Joggers
+waistcoat_dress_shirt: Waistcoat, Dress Shirt, and Tailored Trousers
+tank_top_boardshorts: Tank Top, Board Shorts, and Flip Flops
+overcoat_scarf_boots: Overcoat, Scarf, Dress Pants, and Boots
+nehru_kurta_dress: Nehru Jacket, Kurta, and Dress Pants
+varsity_jeans_hightops: Varsity Jacket, Jeans, and High-Top Sneakers
+trench_coat_sweater: Trench Coat, Sweater, and Slim Pants
+hawaiian_linen_sandals: Hawaiian Shirt, Linen Pants, and Sandals
