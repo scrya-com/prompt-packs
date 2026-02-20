@@ -1,0 +1,335 @@
+# TV & FILM STUDIO SETS
+talk_show_set: Talk show studio set with two chairs, coffee table, cityscape backdrop, studio lighting
+news_desk: News broadcast desk with multiple monitors, teleprompter, world map backdrop
+game_show_stage: Colorful game show stage with podiums, spinning wheel, flashing lights
+sitcom_living_room: Classic sitcom living room set, couch facing camera, laugh track audience area
+soap_opera_mansion: Dramatic soap opera mansion interior, sweeping staircase, chandelier
+reality_tv_confessional: Reality TV confessional booth, single chair, dark moody background
+cooking_show_kitchen: Professional cooking show kitchen set, marble counters, overhead cameras
+late_night_show: Late night talk show set, desk with city skyline backdrop, band area
+weather_studio: Weather forecast studio with green screen and touchscreen map
+sports_commentary: Sports commentary desk with multiple screens showing replays
+courtroom_drama_set: TV courtroom drama set, judge bench, witness stand, jury box
+hospital_drama_set: Medical drama hospital set, operating room with overhead lights
+detective_office_set: Police procedural detective bullpen, desks, evidence boards
+variety_show_stage: Variety show stage with curtains, spotlight, orchestra pit
+
+# RESIDENTIAL - LIVING SPACES
+modern_apartment: Modern open-plan apartment, floor-to-ceiling windows, minimalist furniture
+suburban_house: Suburban family house living room, comfortable furniture, family photos on walls
+penthouse_suite: Luxury penthouse suite, panoramic city views, designer furniture
+studio_apartment: Compact studio apartment, bed nook, kitchenette, exposed brick
+loft_apartment: Industrial loft apartment, high ceilings, exposed ductwork, large windows
+cottage_interior: Cozy English cottage interior, low beams, fireplace, floral upholstery
+farmhouse_kitchen: Rustic farmhouse kitchen, wooden table, hanging copper pots, AGA stove
+mansion_foyer: Grand mansion foyer, marble floor, twin staircases, crystal chandelier
+trailer_home: Modest trailer home interior, compact living space, wood paneling
+brownstone_parlor: Brooklyn brownstone parlor, ornate molding, pocket doors, bay window
+beach_house: Bright beach house interior, white walls, rattan furniture, ocean view
+log_cabin_interior: Mountain log cabin, stone fireplace, antler chandelier, plaid furnishings
+houseboat_cabin: Houseboat cabin interior, compact nautical design, porthole windows
+treehouse_interior: Whimsical treehouse interior, wooden walls, rope ladder, leaf canopy visible
+
+# RESIDENTIAL - BEDROOMS & PRIVATE SPACES
+master_bedroom: Spacious master bedroom, king bed, reading nook, walk-in closet
+teen_bedroom: Teenage bedroom, posters on walls, desk with laptop, string lights
+kids_room: Colorful kids room, bunk beds, toys scattered, glow-in-the-dark stars on ceiling
+nursery: Baby nursery, crib, rocking chair, soft pastel colors, mobile hanging
+dorm_room: College dorm room, twin bed, desk, mini fridge, corkboard with photos
+guest_bedroom: Elegant guest bedroom, fresh linens, vase of flowers on nightstand
+attic_bedroom: Converted attic bedroom, sloped ceiling, dormer window, cozy reading nook
+basement_den: Finished basement den, sectional sofa, big screen TV, pool table
+walk_in_closet: Luxury walk-in closet, organized shelving, center island, mirror wall
+bathroom_luxury: Luxury bathroom, freestanding tub, rain shower, marble tile, double vanity
+bathroom_vintage: Vintage bathroom, clawfoot tub, penny tile floor, pedestal sink
+
+# COMMERCIAL - OFFICES & WORKSPACES
+corporate_office: Modern corporate office, glass walls, standing desks, city views
+coworking_space: Trendy coworking space, communal tables, phone booths, coffee bar
+corner_office: Executive corner office, mahogany desk, leather chair, awards on shelves
+startup_garage: Tech startup in a garage, whiteboards, pizza boxes, tangled cables
+law_firm: Prestigious law firm office, floor-to-ceiling bookshelves, dark wood
+creative_agency: Creative agency workspace, colorful walls, mood boards, Mac monitors
+newsroom: Busy newsroom, rows of desks, wall of TV screens, buzzing energy
+writers_room: TV writers room, long table, whiteboards covered in story beats
+recording_studio: Music recording studio, mixing console, soundproof booth, foam walls
+photo_studio: Photography studio, seamless backdrop, umbrella lights, camera on tripod
+server_room: Data center server room, rows of blinking racks, blue LED lighting, cold aisle
+workshop_maker: Maker workshop, 3D printers, laser cutter, wood shavings, tools on pegboard
+
+# COMMERCIAL - RETAIL & HOSPITALITY
+luxury_boutique: High-end fashion boutique, minimal displays, spot-lit merchandise
+coffee_shop: Cozy independent coffee shop, exposed brick, mismatched furniture, chalkboard menu
+dive_bar: Dimly lit dive bar, neon signs, sticky floor, jukebox in corner
+upscale_restaurant: Fine dining restaurant, white tablecloths, candles, sommelier pouring wine
+diner_retro: Retro American diner, red vinyl booths, chrome stools, jukebox, checkerboard floor
+fast_food_restaurant: Fast food restaurant interior, bright fluorescent lights, plastic booths, menu board
+food_truck: Food truck interior, compact kitchen, serving window, street visible outside
+nightclub: Nightclub interior, DJ booth, dance floor, laser lights, VIP section
+speakeasy: Hidden speakeasy bar, dim lighting, velvet curtains, jazz ambiance
+hotel_lobby: Grand hotel lobby, marble floors, concierge desk, elaborate floral arrangement
+hotel_room: Hotel room, queen bed, desk, minibar, city view from window
+casino_floor: Casino floor, slot machines, card tables, flashing lights, no windows
+barber_shop: Classic barber shop, leather chairs, hot towels, vintage mirrors
+tattoo_parlor: Tattoo parlor, flash art on walls, buzzing needles, leather chair
+bookstore: Independent bookstore, towering shelves, reading nook, cat sleeping on stack
+record_store: Vintage record store, bins of vinyl, band posters, listening station
+laundromat: Fluorescent-lit laundromat, rows of washers and dryers, vending machines
+gas_station: Gas station convenience store interior, snack aisles, slurpee machine
+pawn_shop: Pawn shop, glass display cases, eclectic items, security cameras
+thrift_store: Thrift store, cluttered racks of clothing, vintage finds, musty atmosphere
+
+# DINING & FOOD
+pizzeria: Traditional pizzeria, brick oven, checkered tablecloths, Chianti bottles
+sushi_bar: Japanese sushi bar, conveyor belt, chef behind counter, sake bottles
+taqueria: Colorful Mexican taqueria, tiled walls, salsa bar, hanging papel picado
+bakery: French bakery interior, glass display cases, fresh bread, copper pans
+ice_cream_parlor: Retro ice cream parlor, marble counter, spinning stools, waffle cone scent
+wine_cellar: Underground wine cellar, barrel racks, tasting table, candlelight
+rooftop_bar: Rooftop bar at sunset, city skyline backdrop, string lights, cocktail tables
+pub_british: Traditional British pub, dark wood, brass taps, dartboard, fireplace
+sports_bar: Sports bar, multiple TV screens showing games, pool tables, wing baskets
+ramen_shop: Intimate Japanese ramen shop, counter seating, steam rising from bowls
+
+# SCHOOLS & EDUCATION
+classroom: School classroom, rows of desks, chalkboard, teacher at front, globe on shelf
+lecture_hall: University lecture hall, tiered seating, projector screen, professor at podium
+school_hallway: School hallway, rows of lockers, trophy case, bulletin boards
+school_cafeteria: School cafeteria, long tables, serving line, milk cartons
+school_gymnasium: School gymnasium, basketball hoops, bleachers, polished wood floor
+playground: School playground, swings, slides, monkey bars, kids playing
+library: Grand library, floor-to-ceiling bookshelves, reading tables, green desk lamps
+chemistry_lab: Chemistry laboratory, Bunsen burners, beakers, periodic table poster
+art_classroom: Art classroom, easels, paint-splattered tables, student work on walls
+music_room: School music room, instruments on stands, sheet music scattered, piano
+computer_lab: School computer lab, rows of monitors, keyboards, educational posters
+professors_office: Tenured professor office, overflowing bookshelves, diplomas, cluttered desk
+preschool: Colorful preschool classroom, tiny chairs, finger paintings, alphabet rug
+
+# MEDICAL & HEALTHCARE
+hospital_room: Hospital patient room, adjustable bed, IV drip, heart monitor, window
+emergency_room: Busy emergency room, curtain partitions, gurneys, overhead lights
+operating_room: Sterile operating room, surgical lights, instrument trays, monitors
+doctors_office: Doctor's examination room, exam table, blood pressure cuff, anatomy poster
+dentist_office: Dental office, reclining chair, overhead lamp, x-ray display, tools
+pharmacy: Pharmacy interior, shelves of medications, consultation counter, prescription area
+waiting_room: Medical waiting room, rows of chairs, magazines, TV mounted on wall
+mental_health_office: Therapist office, comfortable couch, armchair, tissues, soft lighting
+veterinary_clinic: Veterinary clinic exam room, steel table, pet treats, animal charts
+morgue: Sterile morgue, stainless steel tables, wall of drawers, cold fluorescent lights
+rehab_facility: Physical rehabilitation facility, exercise equipment, parallel bars, mats
+
+# LAW ENFORCEMENT & GOVERNMENT
+police_station: Police station bullpen, desks with computers, evidence boards, coffee cups
+interrogation_room: Police interrogation room, metal table, two-way mirror, single overhead light
+prison_cell: Prison cell, bunk bed, stainless steel toilet, scratched walls
+prison_yard: Prison yard, chain-link fence, basketball court, guard tower
+courtroom: Formal courtroom, judge bench, witness stand, jury box, gallery seating
+judges_chambers: Judge's private chambers, legal books, desk, American flag
+city_hall: City hall council chamber, semicircular desk, public gallery, flags
+mayors_office: Mayor's office, large desk, city view, framed photos with dignitaries
+fbi_office: FBI field office, cubicles, evidence wall, American flag
+war_room: Military war room, large table with maps, screens with satellite imagery
+embassy: Embassy interior, ornate diplomatic reception room, flags, formal furniture
+fire_station: Fire station interior, fire trucks, poles, turnout gear hanging, dalmatian
+
+# RELIGIOUS & SACRED
+church_interior: Church interior, wooden pews, stained glass windows, altar, vaulted ceiling
+cathedral: Gothic cathedral interior, soaring arches, rose window, organ pipes
+mosque_interior: Mosque interior, ornate dome, prayer rugs, mihrab, geometric patterns
+synagogue: Synagogue interior, bimah, Torah ark, menorah, wooden benches
+temple_buddhist: Buddhist temple interior, golden Buddha statue, incense smoke, monks
+temple_hindu: Hindu temple interior, colorful deities, garlands, oil lamps
+chapel: Small intimate chapel, simple altar, candles, wooden crucifix
+confession_booth: Catholic confession booth, wooden partition, dim light, kneeler
+meditation_room: Zen meditation room, tatami mats, incense, minimalist, natural light
+cemetery: Cemetery at dusk, headstones, wrought iron fence, fog, autumn leaves
+
+# ENTERTAINMENT & PERFORMANCE
+movie_theater: Movie theater interior, rows of red seats, giant screen, dim lighting
+broadway_stage: Broadway theater stage, elaborate set, orchestra pit, spotlight
+comedy_club: Comedy club, small stage with microphone stand, brick wall backdrop, tables
+concert_arena: Concert arena, massive stage, light show, crowd of thousands
+jazz_club: Intimate jazz club, small stage, upright bass, dim amber lighting
+opera_house: Grand opera house, ornate balconies, velvet curtains, crystal chandelier
+puppet_theater: Puppet theater, miniature stage, curtains, child audience
+circus_tent: Circus tent interior, sawdust ring, trapeze overhead, spotlights
+drive_in_theater: Drive-in movie theater, cars facing screen, sunset sky, concession stand
+karaoke_room: Private karaoke room, disco ball, neon lights, microphones, couch
+arcade: Retro arcade, rows of cabinet games, neon glow, token machines
+bowling_alley: Bowling alley, polished lanes, scoring screens, rental shoes
+escape_room: Themed escape room, puzzles on walls, countdown timer, mysterious artifacts
+haunted_house: Haunted house attraction, cobwebs, jump scares, foggy corridors
+
+# SPORTS & FITNESS
+boxing_ring: Boxing ring, corner stool, ropes, overhead lights, crowd ringside
+basketball_court: Indoor basketball court, polished wood, scoreboard, bleachers
+football_stadium: Football stadium, green turf, goalposts, packed crowd, jumbotron
+baseball_dugout: Baseball dugout, bench, bat rack, field visible through chain link
+swimming_pool: Olympic swimming pool, lane dividers, starting blocks, chlorine blue water
+ice_rink: Ice skating rink, Zamboni marks, glass boards, scoreboard
+yoga_studio: Yoga studio, hardwood floor, mirrors, mats laid out, incense
+crossfit_gym: CrossFit box gym, pull-up rigs, bumper plates, chalk dust, whiteboard WOD
+martial_arts_dojo: Martial arts dojo, padded floor, mirrors, punching bags, belt display
+tennis_court: Indoor tennis court, green surface, net, seating gallery
+horse_stable: Horse stable, wooden stalls, hay bales, tack room, saddles hanging
+ski_lodge: Ski lodge interior, stone fireplace, wooden beams, skis propped against wall
+locker_room: Sports locker room, metal lockers, benches, steam from showers
+
+# TRANSPORTATION HUBS
+airport_terminal: Airport terminal, departure boards, gate seating, floor-to-ceiling windows
+airplane_cabin: Airplane cabin interior, rows of seats, overhead bins, window view of clouds
+train_station: Grand train station, vaulted ceiling, departure board, platforms
+subway_platform: Subway platform, tiled walls, yellow caution line, train arriving
+bus_interior: City bus interior, blue seats, hanging straps, passengers
+cruise_ship_deck: Cruise ship deck, pool, lounge chairs, ocean horizon
+yacht_interior: Luxury yacht interior, teak wood, white leather, ocean through portholes
+taxi_backseat: Taxi backseat view, meter running, city lights through window, partition
+car_interior: Car interior, dashboard, steering wheel, rearview mirror, road ahead
+limousine: Stretch limousine interior, leather seats, mini bar, partition, neon lighting
+helicopter_cockpit: Helicopter cockpit, instrument panel, city aerial view below
+spaceship_cockpit: Sci-fi spaceship cockpit, holographic displays, starfield through viewport
+
+# OUTDOOR - URBAN
+city_street: Busy city street, pedestrians, storefronts, traffic, crosswalk
+dark_alley: Dark urban alley, dumpsters, fire escape ladders, single streetlight
+rooftop_terrace: Rooftop terrace, city skyline at night, string lights, seating area
+parking_garage: Underground parking garage, concrete pillars, fluorescent lights, car shadows
+construction_site: Construction site, steel beams, cranes, hard hats, scaffolding
+bridge_walkway: Pedestrian bridge walkway, cable stays, river below, city backdrop
+town_square: European town square, cobblestones, fountain, cafe terraces, church facade
+chinatown: Chinatown street, red lanterns, neon signs, crowded market stalls
+times_square: Times Square at night, massive LED billboards, yellow cabs, crowds
+boardwalk: Beach boardwalk, carnival rides, cotton candy stands, ocean view
+street_market: Open-air street market, vendor stalls, colorful awnings, produce displays
+food_court: Shopping mall food court, neon restaurant signs, communal seating
+skatepark: Urban skatepark, half-pipe, graffiti walls, concrete bowls
+subway_car: Subway train car interior, orange seats, pole handles, graffiti, motion blur
+fire_escape: Fire escape landing, brick building, potted plants, city view below
+
+# OUTDOOR - NATURE & WILDERNESS
+forest_clearing: Sunlit forest clearing, wildflowers, dappled light through canopy
+dense_jungle: Dense tropical jungle, enormous leaves, hanging vines, exotic birds
+beach_tropical: Tropical beach, white sand, turquoise water, palm trees, hammock
+mountain_summit: Mountain summit, panoramic view, thin clouds below, rocky terrain
+desert_dunes: Vast desert sand dunes, golden hour light, camel silhouettes
+waterfall: Thundering waterfall, mist rising, rainbow in spray, mossy rocks
+cave_entrance: Cave entrance, stalactites, torchlight, underground river
+snow_tundra: Arctic snow tundra, flat white expanse, northern lights overhead
+bamboo_forest: Bamboo forest, towering green stalks, filtered light, stone path
+coral_reef: Underwater coral reef, colorful fish, sea anemones, clear blue water
+volcano_crater: Volcano crater rim, glowing lava below, smoke and ash, dramatic sky
+meadow_wildflower: Rolling wildflower meadow, butterflies, distant mountains, golden hour
+river_canyon: Deep river canyon, layered red rock, winding river below
+mangrove_swamp: Mangrove swamp, twisted roots in water, humid atmosphere, wildlife
+redwood_forest: Giant redwood forest, massive tree trunks, fern understory, misty
+lavender_field: Lavender field in bloom, purple rows stretching to horizon, provence
+cherry_blossom: Cherry blossom grove in full bloom, pink petals drifting, spring
+
+# OUTDOOR - RURAL & AGRICULTURAL
+farm_barn: Red barn interior, hay bales, rustic tools, sunlight through slats
+vineyard: Rolling vineyard, rows of grapevines, Tuscan hills, golden afternoon light
+wheat_field: Golden wheat field, combine harvester, big sky, late afternoon sun
+ranch: Western ranch, corral fences, horses, windmill, dusty ground
+country_road: Winding country road, stone walls, sheep grazing, rolling green hills
+fishing_dock: Wooden fishing dock, boats moored, nets drying, calm lake at dawn
+orchard: Apple orchard in autumn, laden branches, wooden crates, ladder against tree
+greenhouse: Glass greenhouse interior, rows of potted plants, humidity, warm light
+market_garden: Farm market garden, vegetable rows, scarecrow, watering can
+
+# HISTORICAL & PERIOD SETTINGS
+victorian_parlor: Victorian parlor, heavy drapes, ornate furniture, gaslight fixtures, piano
+art_deco_lounge: 1920s Art Deco lounge, geometric patterns, velvet seating, martini glasses
+medieval_castle: Medieval castle great hall, long banquet table, tapestries, suits of armor
+viking_longhouse: Viking longhouse, timber frame, central hearth, animal furs, mead hall
+roman_villa: Ancient Roman villa, mosaic floor, columns, atrium pool, oil lamps
+saloon_western: Wild West saloon, swinging doors, bar with mirror, poker table, piano
+prohibition_speakeasy: 1920s prohibition speakeasy, hidden entrance, jazz band, bootleg whiskey
+disco_club: 1970s disco club, mirrored ball, light-up dance floor, bell-bottom dancers
+fifties_diner: 1950s American diner, chrome fixtures, vinyl booths, neon clock, milkshakes
+sixties_mod: 1960s mod apartment, Eames chairs, lava lamp, pop art, shag carpet
+eighties_arcade: 1980s arcade, Pac-Man cabinets, neon tubes, synth music, pizza counter
+nineties_bedroom: 1990s teen bedroom, boy band posters, CRT TV, VHS tapes, beanbag chair
+ancient_egypt: Ancient Egyptian temple interior, hieroglyphics, golden sarcophagus, torchlight
+samurai_castle: Japanese samurai castle interior, tatami floor, sliding screens, katana display
+colonial_tavern: Colonial era tavern, wooden tables, tankards, candlelight, stone fireplace
+
+# FANTASY & SCI-FI
+spaceship_bridge: Sci-fi spaceship bridge, captain's chair, holographic displays, viewscreen
+space_station: Space station interior, zero-gravity, circular corridor, Earth visible through porthole
+alien_planet: Alien planet surface, two suns in sky, bizarre flora, purple atmosphere
+cyberpunk_street: Cyberpunk city street, neon signs, flying cars, rain, holographic ads
+steampunk_workshop: Steampunk workshop, brass gears, steam pipes, Victorian gadgets, goggles
+wizard_tower: Wizard's tower study, spell books, crystal ball, potions, floating candles
+medieval_tavern: Medieval fantasy tavern, wooden tables, fireplace, bard in corner, flagons
+dragon_lair: Dragon's lair, piles of gold and gems, scorched walls, massive cave
+enchanted_forest: Enchanted forest, glowing mushrooms, fairy lights, twisted ancient trees
+underwater_city: Underwater city, glass domes, bioluminescent lighting, fish swimming past
+post_apocalyptic: Post-apocalyptic wasteland, ruined buildings, overgrown vegetation, scavenged camp
+haunted_mansion: Haunted mansion interior, dusty furniture, cobwebs, ghostly blue light
+mad_scientist_lab: Mad scientist laboratory, bubbling beakers, Tesla coils, brain in jar
+time_machine_room: Time machine control room, spinning dials, sparking electricity, portal glow
+holodeck: Star Trek style holodeck, grid lines, simulated environment materializing
+matrix_construct: The Matrix construct, infinite white void, weapons rack materializing
+
+# UNDERGROUND & HIDDEN
+bomb_shelter: Cold War bomb shelter, canned food shelves, bunk beds, radio equipment
+secret_bunker: Secret underground bunker, steel doors, monitors, communications equipment
+catacombs: Ancient catacombs, skull-lined walls, narrow passages, torch flicker
+wine_cave: Underground wine cave, barrel-aging room, stone walls, candlelit
+sewer_tunnel: Sewer tunnel, brick walls, flowing water, dim industrial lights, steam
+mine_shaft: Abandoned mine shaft, timber supports, rusted cart tracks, lantern light
+underground_club: Underground nightclub, converted bunker, exposed concrete, red lighting
+panic_room: Panic room, reinforced steel door, security monitors, supplies
+speakeasy_basement: Hidden basement speakeasy, behind bookshelf entrance, intimate tables
+smuggler_tunnel: Smuggler's tunnel, low ceiling, crude supports, flashlight beams
+
+# LUXURY & HIGH END
+penthouse_pool: Penthouse infinity pool, glass walls, nighttime city skyline
+private_jet: Private jet interior, cream leather, champagne, walnut trim
+vip_lounge: VIP nightclub lounge, velvet rope, bottle service, exclusive seating
+auction_house: Auction house, paddles raised, artwork on display, auctioneer at podium
+art_gallery: Modern art gallery, white walls, spotlit paintings, polished concrete floor
+fashion_runway: Fashion runway, catwalk, front row seating, photographers, dramatic lighting
+yacht_deck: Superyacht sun deck, jacuzzi, teak flooring, Mediterranean coastline
+country_club: Country club dining room, white tablecloths, golf course view, chandelier
+spa_treatment: Luxury spa treatment room, massage table, hot stones, bamboo, candles
+wine_tasting: Wine tasting room, barrel wall, crystal glasses, sommelier, cheese board
+rooftop_infinity: Rooftop infinity pool, sunset over city, lounge chairs, cocktail bar
+
+# INDUSTRIAL & GRITTY
+warehouse: Abandoned warehouse, broken windows, graffiti, concrete floor, pigeon feathers
+factory_floor: Active factory floor, conveyor belts, robotic arms, sparks flying
+auto_shop: Auto repair shop, car on lift, tool chests, oil stains, fluorescent lights
+loading_dock: Loading dock, delivery trucks, pallets, forklift, industrial doors
+shipyard: Shipyard, massive hull in dry dock, welding sparks, cranes, harbor
+steel_mill: Steel mill, molten metal pouring, orange glow, intense heat, workers in gear
+power_plant: Power plant control room, blinking panels, switches, industrial monitors
+train_yard: Train yard, lines of freight cars, switching tower, gravel, diesel engines
+junkyard: Junkyard, stacked crushed cars, rusted metal, guard dog, chain-link fence
+butcher_shop: Old-school butcher shop, meat hooks, tiled walls, sawdust floor, cold storage
+
+# CULTURAL & COMMUNITY
+museum_gallery: Museum exhibition gallery, framed masterpieces, marble floor, benches
+natural_history: Natural history museum, dinosaur skeleton, dioramas, glass cases
+aquarium: Public aquarium tunnel, sharks swimming overhead, blue ambient light
+planetarium: Planetarium dome, reclining seats, projected star field, narrator spotlight
+community_center: Community center, multipurpose room, folding chairs, stage, basketball hoops
+senior_center: Senior center activity room, card tables, bingo, comfortable chairs
+youth_center: Youth center, foosball table, video games, homework tables, mural wall
+soup_kitchen: Soup kitchen, serving line, volunteers, long dining tables
+farmers_market: Indoor farmers market, produce stands, artisan bread, fresh flowers
+flea_market: Flea market stalls, antiques, collectibles, haggling vendors
+auction_barn: Rural auction barn, wooden seating, auctioneer stand, livestock pens
+
+# SCIENCE & TECHNOLOGY
+nasa_control: NASA mission control, rows of monitors, big screen showing rocket, headsets
+particle_lab: Particle physics laboratory, massive accelerator tube, banks of instruments
+observatory: Mountain observatory dome, large telescope, star charts, computer banks
+clean_room: Semiconductor clean room, workers in bunny suits, silicon wafers
+biotech_lab: Biotech laboratory, DNA sequencer, centrifuge, petri dishes, microscope
+robotics_lab: Robotics lab, humanoid robot, circuit boards, 3D printers, drone parts
+space_launch: Space launch control room, countdown display, tension, glass overlooking pad
+weather_station: Remote weather station, instruments, radio tower, windswept landscape
+data_center: Massive data center, endless server racks, cooling systems, fiber optics
+innovation_hub: Innovation hub, prototype displays, VR headsets, holographic table
