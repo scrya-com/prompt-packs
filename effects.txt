@@ -1,0 +1,376 @@
+# MINIATURE & DIORAMA
+diorama_isometric: Isometric 3D miniature diorama with tilt-shift blur
+diorama_topdown: Top-down diorama view of a tiny detailed scene
+diorama_snow_globe: Scene encased in a glass snow globe
+diorama_terrarium: Scene inside a lush glass terrarium with moss and ferns
+diorama_bookshelf: Tiny scene built into a bookshelf nook
+diorama_matchbox: Miniature scene inside an open matchbox
+diorama_music_box: Scene on a rotating music box platform
+diorama_shadow_box: Scene in a shadow box with layered depth planes
+diorama_jar: Scene sealed inside a mason jar with fairy lights
+diorama_aquarium: Underwater diorama in a fish tank
+diorama_popup_book: Scene springing from the pages of an open popup book
+diorama_train_set: Scene as part of a model train landscape
+diorama_dollhouse: Scene inside a cross-section dollhouse
+diorama_crystal_ball: Scene swirling inside a crystal ball
+
+# ART STYLE TRANSFER
+style_oil_painting: Classical oil painting with visible brushstrokes and rich texture
+style_watercolor: Soft watercolor wash with bleeding edges and paper texture
+style_pencil_sketch: Detailed graphite pencil drawing on textured paper
+style_charcoal: Dramatic charcoal sketch with deep blacks and smudged edges
+style_ink_wash: East Asian ink wash painting with flowing brushwork
+style_woodblock: Japanese ukiyo-e woodblock print with flat color and bold outlines
+style_impressionist: Monet-style impressionist painting with dappled light
+style_pointillist: Seurat-style dots of color forming the image
+style_art_nouveau: Flowing organic lines and decorative borders in Mucha style
+style_art_deco: Geometric patterns, gold accents, 1920s glamour
+style_pop_art: Bold Warhol/Lichtenstein pop art with halftone dots and primary colors
+style_cubist: Picasso-style fractured geometric perspectives
+style_surrealist: Dali-style melting, dreamlike surreal distortions
+style_baroque: Dramatic Caravaggio lighting with ornate richness
+style_renaissance: Classical Renaissance composition with sfumato technique
+style_fauvism: Matisse-style wild colors and simplified forms
+style_expressionist: Intense emotional distortion with bold color (Munch, Kirchner)
+style_minimalist: Stripped to essential forms, clean lines, limited palette
+style_abstract: Non-representational shapes, colors, and textures
+style_stained_glass: Medieval stained glass window with lead lines and jewel tones
+style_mosaic: Roman/Byzantine mosaic with small tile tesserae
+style_fresco: Ancient wall fresco with cracked plaster texture
+style_gouache: Opaque matte gouache painting with flat color areas
+style_pastel: Soft pastel chalk on textured paper with gentle blending
+style_acrylic_pour: Fluid acrylic pour painting with organic cell patterns
+style_palette_knife: Thick impasto palette knife texture with bold strokes
+style_silk_painting: Delicate silk painting with flowing dye patterns
+style_batik: Wax-resist batik textile pattern with crackle texture
+style_calligraphy: Flowing calligraphic strokes forming the image
+style_etching: Fine-line copper plate etching with crosshatching
+style_linocut: Bold linocut print with stark black and white contrast
+style_screen_print: Multi-layer screen print with slight registration offset
+
+# ANIMATION & CARTOON
+style_disney_2d: Classic Disney hand-drawn animation style
+style_pixar_3d: Pixar-style 3D rendering with subsurface scattering
+style_ghibli: Studio Ghibli watercolor backgrounds and gentle character design
+style_anime_shonen: Dynamic shonen anime with speed lines and dramatic poses
+style_anime_shojo: Soft shojo anime with sparkles, flowers, and pastel palette
+style_looney_tunes: Exaggerated Looney Tunes cartoon with squash and stretch
+style_south_park: Flat cutout construction paper animation style
+style_simpsons: Simpsons-style yellow character design with bold outlines
+style_comic_book: Bold comic book inks with Ben-Day dots and action panels
+style_manga: Black and white manga with screentone shading
+style_chibi: Super-deformed cute chibi proportions with large heads
+style_rubber_hose: 1930s rubber hose animation with noodle limbs (Fleischer Bros)
+style_paper_cutout: Stop-motion paper cutout animation aesthetic
+style_claymation: Wallace & Gromit claymation with fingerprint textures
+style_puppet: Felt puppet show aesthetic (Muppets/Sesame Street)
+style_silhouette: Black silhouette figures against colored backgrounds
+style_rotoscope: Rotoscoped animation traced over live action (Scanner Darkly)
+style_motion_comic: Comic panels with subtle parallax motion
+style_8bit_animation: Animated 8-bit pixel art sprites and backgrounds
+
+# PIXEL ART & RETRO DIGITAL
+style_pixel_art: Detailed pixel art with limited color palette
+style_8bit: NES-era 8-bit graphics with 4-color sprites
+style_16bit: SNES-era 16-bit graphics with richer palette
+style_gameboy: Green monochrome Game Boy aesthetic
+style_voxel: 3D voxel art like Minecraft with cubic geometry
+style_crt_scanlines: CRT monitor effect with visible scanlines and phosphor glow
+style_glitch_art: Intentional digital corruption with data moshing artifacts
+style_ascii_art: Image rendered as ASCII characters in a terminal
+style_demoscene: Oldschool demoscene graphics with plasma and tunnels
+style_vector_flat: Clean flat vector illustration with geometric shapes
+
+# CINEMATIC & FILM
+style_film_noir: High-contrast black and white with dramatic shadows
+style_noir_color: Neo-noir with deep shadows and neon accent colors
+style_70s_film: Warm 1970s film stock with grain, faded highlights
+style_80s_vhs: VHS tape artifacts, tracking lines, oversaturated color
+style_90s_camcorder: Home camcorder look with date stamp and autofocus hunting
+style_super8: Super 8mm film with heavy grain, vignette, and light leaks
+style_35mm_kodak: Kodak Portra film emulation with warm skin tones
+style_fuji_velvia: Fuji Velvia slide film with vivid saturated colors
+style_polaroid: Instant Polaroid photo with white border and color shift
+style_daguerreotype: 19th century daguerreotype with silver plate shimmer
+style_tintype: Civil War era tintype with dark metallic surface
+style_infrared: Infrared film with white foliage and dark skies
+style_cross_process: Cross-processed film with shifted colors and high contrast
+style_bleach_bypass: Silver-retained bleach bypass with desaturated high contrast
+style_technicolor: Two-strip or three-strip Technicolor vintage Hollywood look
+style_cinemascope: Anamorphic widescreen with oval bokeh and lens flares
+style_imax: Ultra-sharp IMAX large format with extreme dynamic range
+style_found_footage: Shaky found footage aesthetic with artifacts and damage
+style_security_cam: Grainy security camera feed with timestamp overlay
+style_drone_footage: Aerial drone perspective with slight lens distortion
+style_gopro: Wide-angle GoPro fisheye with high saturation action feel
+style_lomography: Lomo camera effect with saturated colors, vignette, light leaks
+style_double_exposure: Two images blended in a double exposure composite
+style_tilt_shift: Real tilt-shift lens effect making scenes look miniature
+style_slow_motion: Ultra slow motion with motion interpolation smoothness
+style_timelapse: Compressed timelapse aesthetic with light trails
+
+# LIGHTING & COLOR
+fx_golden_hour: Warm golden hour sunset lighting with long shadows
+fx_blue_hour: Cool twilight blue hour with soft ambient glow
+fx_neon_glow: Vibrant neon lighting with color spill and bloom
+fx_chiaroscuro: Dramatic single-source light with deep shadows (Caravaggio)
+fx_volumetric_light: God rays and volumetric light shafts through atmosphere
+fx_blacklight: Ultraviolet blacklight with fluorescent colors glowing
+fx_candlelight: Warm flickering candlelight with soft dancing shadows
+fx_moonlight: Cool silver moonlight with blue shadows
+fx_bioluminescence: Glowing bioluminescent organisms lighting the scene
+fx_aurora_borealis: Northern lights casting shifting colored light
+fx_disco_lights: Spinning disco ball with colored light patterns
+fx_stage_spotlight: Harsh theatrical spotlight with dark surroundings
+fx_lightning_flash: Scene lit by intermittent lightning strikes
+fx_lava_glow: Hot orange-red glow from molten lava illumination
+fx_crystal_refraction: Prismatic rainbow light refracted through crystals
+fx_color_inversion: Inverted/negative colors like a photo negative
+fx_monochrome_red: Scene rendered entirely in shades of red
+fx_monochrome_blue: Scene rendered entirely in shades of blue
+fx_monochrome_green: Scene rendered entirely in shades of green (night vision)
+fx_sepia: Warm sepia tone vintage color grading
+fx_desaturated: Heavily desaturated nearly-monochrome with muted tones
+fx_oversaturated: Cranked saturation with vivid hyper-real colors
+fx_split_tone: Split toning with warm highlights and cool shadows
+fx_duotone: Two-color duotone treatment (Spotify poster style)
+fx_psychedelic: Wild psychedelic color cycling with kaleidoscopic patterns
+
+# WEATHER & ATMOSPHERE
+fx_rain: Heavy rain with wet surfaces and reflections
+fx_drizzle: Light drizzle with misty atmosphere
+fx_snow: Falling snow with frost and cold breath
+fx_blizzard: Intense blizzard whiteout with driving snow
+fx_fog: Dense atmospheric fog obscuring background
+fx_mist: Light morning mist hanging in the air
+fx_dust_storm: Sandy dust storm with low visibility
+fx_smoke: Drifting smoke with haze and low contrast
+fx_underwater: Underwater scene with caustics, bubbles, and blue tint
+fx_heat_haze: Heat shimmer distortion rising from hot surfaces
+fx_aurora: Sky filled with colorful aurora borealis
+fx_thunderstorm: Dark storm clouds with lightning flashes
+fx_tornado: Dramatic tornado funnel in the background
+fx_ash_fall: Volcanic ash or embers drifting down through the air
+fx_pollen: Golden pollen and dust motes floating in sunbeams
+fx_fireflies: Tiny firefly points of light floating in twilight
+fx_cherry_blossom: Pink cherry blossom petals drifting through the air
+fx_autumn_leaves: Falling autumn leaves in warm orange and red
+fx_confetti: Colorful confetti raining down in celebration
+fx_sparks: Glowing sparks and embers floating upward
+
+# MATERIAL & TEXTURE TRANSFORMS
+mat_marble: Scene rendered as polished marble sculpture
+mat_bronze: Everything cast in oxidized bronze with green patina
+mat_gold: Solid gold rendering with reflective metallic surface
+mat_chrome: Mirror-finish chrome with environmental reflections
+mat_crystal: Translucent crystal or gemstone material with refractions
+mat_ice: Frozen in clear ice with frost patterns and cold blue tint
+mat_wood: Carved from warm-toned wood with visible grain
+mat_paper: Paper craft/origami look with folded paper textures
+mat_fabric: Soft fabric/textile rendering with weave patterns
+mat_ceramic: Glazed ceramic or porcelain with smooth reflective finish
+mat_clay: Raw fired clay with terracotta warmth
+mat_glass: Clear or frosted glass with transparency and reflections
+mat_neon_tubes: Scene outlined in glowing neon tube lighting
+mat_hologram: Holographic iridescent material with rainbow shimmer
+mat_wireframe: 3D wireframe rendering with visible mesh edges
+mat_x_ray: X-ray or medical scan transparency effect
+mat_thermal: Thermal imaging false color heat map
+mat_tron: TRON-style glowing grid lines on dark surfaces
+mat_low_poly: Low-polygon 3D rendering with flat-shaded facets
+mat_origami: Folded paper origami geometric construction
+mat_lego: Scene rebuilt entirely from LEGO bricks
+mat_minecraft: Minecraft cubic voxel block construction
+mat_plush: Soft plush stuffed animal material on everything
+mat_balloon: Scene made of inflated balloons and rubber
+mat_candy: Candy and confectionery materials (gummy, chocolate, sugar)
+mat_floral: Surface covered in flowers and botanical growth
+mat_moss_covered: Everything overgrown with moss and small plants
+mat_coral: Underwater coral reef texture growth on surfaces
+mat_rust: Heavy oxidized rust and decay texture
+mat_frost: Delicate frost crystal patterns covering surfaces
+
+# TIME & ERA TRANSFORMS
+era_prehistoric: Prehistoric cave painting on rock walls
+era_ancient_egypt: Ancient Egyptian art with hieroglyphic style
+era_greek_roman: Classical Greco-Roman fresco and sculpture aesthetic
+era_medieval: Medieval illuminated manuscript with gold leaf
+era_gothic: Dark Gothic cathedral aesthetic with gargoyles and tracery
+era_victorian: Ornate Victorian illustration with engravings
+era_steampunk: Steampunk brass gears, copper pipes, and steam
+era_roaring_20s: 1920s Art Deco glamour with jazz age styling
+era_1950s: Mid-century modern design with atomic age optimism
+era_1960s_mod: Swinging sixties mod fashion with op-art patterns
+era_1970s_disco: Disco era with metallic, sparkle, and warm tones
+era_1980s_synthwave: Neon synthwave with chrome and pink/purple gradients
+era_1990s_grunge: Grungy textures, flannel, analog noise
+era_y2k: Y2K futurism with silver, translucent plastic, and digital
+era_cyberpunk: Cyberpunk neon city with rain, holograms, and tech decay
+era_solarpunk: Solarpunk green future with organic tech and gardens
+era_post_apocalyptic: Ruined post-apocalyptic overgrown wasteland
+era_far_future: Sleek far-future sci-fi with holographic displays
+
+# WORLD & ENVIRONMENT
+world_underwater: Scene submerged underwater with caustic light patterns
+world_space: Scene floating in outer space with stars and nebulae
+world_clouds: Scene built on clouds in a celestial sky
+world_jungle: Dense tropical jungle overgrowth surrounding the scene
+world_desert: Vast desert landscape with sand dunes and heat shimmer
+world_arctic: Frozen arctic landscape with ice and aurora
+world_volcanic: Volcanic landscape with lava flows and ash
+world_crystal_cave: Inside a crystal cave with glowing gem formations
+world_mushroom_forest: Oversized bioluminescent mushroom forest
+world_candy_land: Everything made of candy, cake, and sweets
+world_toy_box: Scene as toys inside a child's toy box
+world_snow_globe: Scene trapped inside a shaken snow globe
+world_fish_bowl: Scene inside a round fishbowl with distorted edges
+world_terrarium: Enclosed ecosystem in a glass container
+world_bonsai: Scene miniaturized as a bonsai tree arrangement
+world_zen_garden: Japanese zen rock garden with raked sand
+world_haunted: Spooky haunted house with cobwebs and eerie glow
+world_enchanted: Magical enchanted forest with fairy lights
+world_ruins: Ancient overgrown stone ruins with creeping vines
+world_cybercity: Futuristic mega-city with flying vehicles and neon
+
+# CAMERA & PERSPECTIVE
+cam_fisheye: Extreme fisheye lens barrel distortion
+cam_macro: Extreme macro close-up with shallow depth of field
+cam_bird_eye: Straight-down bird's eye aerial view
+cam_worm_eye: Ultra low angle looking straight up
+cam_dutch_angle: Tilted Dutch angle for dramatic tension
+cam_split_diopter: Split diopter with two focal planes sharp simultaneously
+cam_through_window: Seen through a rain-streaked or dirty window
+cam_reflection: Scene viewed as a reflection in water or mirror
+cam_keyhole: Scene viewed through a keyhole or peephole
+cam_binoculars: Circular binocular view with black vignette border
+cam_microscope: Microscope view with circular frame and scale markers
+cam_telescope: Telescope view of distant scene with chromatic aberration
+cam_surveillance: Multi-panel security camera grid layout
+cam_periscope: Submarine periscope view with crosshair overlay
+
+# MOTION EFFECTS
+motion_slow_mo: Ultra slow motion with smooth interpolation
+motion_speed_ramp: Dynamic speed ramping (slow→fast→slow)
+motion_reverse: Video playing in reverse
+motion_freeze_frame: Freeze on key moment with slow zoom
+motion_bullet_time: Matrix-style frozen-time camera orbit
+motion_strobe: Stroboscopic effect showing multiple frozen poses
+motion_echo: Ghostly motion trails echoing previous frames
+motion_zoom_burst: Rapid zoom burst creating radial motion blur
+motion_dolly_zoom: Vertigo dolly zoom (background stretches, subject stays)
+motion_parallax: Exaggerated depth parallax between foreground and background
+motion_orbit: Camera slowly orbiting around the subject
+motion_shake: Intense camera shake for action impact
+motion_whip_pan: Fast whip pan blur between scenes
+motion_roll: 360-degree barrel roll camera rotation
+motion_drift: Slow dreamy lateral camera drift
+motion_breathe: Gentle rhythmic scale pulsing like breathing
+motion_wobble: Organic handheld wobble with stabilization removed
+
+# PARTICLE & OVERLAY EFFECTS
+particle_fire: Surrounding flames and fire particles
+particle_embers: Floating glowing embers rising upward
+particle_sparkle: Twinkling sparkle particles across the scene
+particle_dust: Floating dust motes caught in light beams
+particle_bubbles: Soap bubbles or underwater air bubbles floating
+particle_smoke_wisps: Delicate wisps of smoke curling through scene
+particle_magic: Magical glowing particles trailing from movement
+particle_glitter: Dense glitter particles catching the light
+particle_snow_gentle: Gentle snowfall with large soft flakes
+particle_rain_drops: Individual visible rain drops with splashes
+particle_petals: Flower petals swirling in the wind
+particle_leaves: Autumn leaves tumbling through the air
+particle_feathers: Soft feathers floating down slowly
+particle_dandelion: Dandelion seeds dispersing in the breeze
+particle_butterflies: Butterflies fluttering through the scene
+particle_stars: Twinkling star particles like a star field
+
+# ABSTRACT & EXPERIMENTAL
+abstract_kaleidoscope: Kaleidoscopic mirror symmetry pattern
+abstract_fractal: Infinite fractal zoom with self-similar patterns
+abstract_voronoi: Voronoi diagram cellular decomposition
+abstract_liquid: Liquid mercury flowing organic shape distortion
+abstract_smoke_morph: Smoke morphing into recognizable shapes
+abstract_geometric: Breaking into geometric triangulated shards
+abstract_datamosh: Intentional datamoshing with frame blending artifacts
+abstract_pixel_sort: Pixel sorting glitch with streaked color bands
+abstract_slit_scan: Slit-scan time distortion (2001 stargate style)
+abstract_displacement: Displacement map warping from texture pattern
+abstract_ripple: Rippling water surface distortion
+abstract_melt: Melting/dripping distortion flowing downward
+abstract_shatter: Scene shattering into glass-like fragments
+abstract_dissolve: Dissolving into particles or sand
+abstract_crystallize: Crystallizing/freezing from one edge across
+abstract_bloom: Heavy bloom/glow bleeding from bright areas
+abstract_chromatic: Chromatic aberration with RGB channel separation
+abstract_scan: Horizontal scan line sweep revealing the effect
+abstract_tv_static: TV static noise with intermittent image fragments
+abstract_deep_dream: DeepDream neural network hallucination patterns
+
+# SEASONAL & HOLIDAY
+season_spring: Spring scene with blossoms, green buds, and butterflies
+season_summer: Bright summer with sun flares and warm saturation
+season_autumn: Autumn with warm golden light and falling leaves
+season_winter: Winter with cool tones, frost, and bare branches
+holiday_halloween: Spooky orange and purple with jack-o-lanterns
+holiday_christmas: Red and green with snow, ornaments, and warm lights
+holiday_valentines: Pink and red with hearts and soft romantic glow
+holiday_new_years: Midnight fireworks with champagne gold sparkle
+holiday_dia_de_muertos: Day of the Dead with sugar skull florals and marigolds
+holiday_lunar_new_year: Red and gold with lanterns and dragon motifs
+holiday_diwali: Festival of lights with oil lamps and rangoli patterns
+holiday_holi: Explosion of colorful powder paint in every hue
+holiday_midsummer: Scandinavian midsummer with wildflowers and long golden light
+
+# ARCHITECTURAL & DESIGN
+design_blueprint: Technical blueprint drawing on blue paper with white lines
+design_architectural: Clean architectural rendering with section cuts
+design_isometric_tech: Technical isometric diagram with callout labels
+design_infographic: Data visualization infographic style
+design_patent_drawing: US patent office technical illustration style
+design_botanical: Scientific botanical illustration with labels
+design_anatomical: Medical anatomical illustration (Da Vinci style)
+design_map: Illustrated map view with landmarks and paths
+design_schematic: Electrical schematic or circuit board layout
+design_cross_stitch: Cross-stitch embroidery pattern on fabric grid
+design_sticker: Die-cut sticker with white border and slight shadow
+design_emoji: Flat emoji style with bold simple shapes
+design_icon: App icon style with rounded corners and gradient
+design_stamp: Postage stamp with perforated border and cancellation mark
+design_tarot: Ornate tarot card illustration with symbolic imagery
+design_playing_card: Playing card design with mirrored symmetry
+
+# CULTURAL & REGIONAL STYLES
+culture_ukiyo_e: Japanese ukiyo-e floating world woodblock print
+culture_sumi_e: Japanese sumi-e ink brush painting
+culture_wabi_sabi: Japanese wabi-sabi aesthetic embracing imperfection
+culture_chinese_scroll: Chinese landscape scroll painting with mountains and mist
+culture_persian_miniature: Detailed Persian miniature painting with gold
+culture_mughal: Mughal court painting style with intricate detail
+culture_aboriginal: Australian Aboriginal dot painting dreamtime art
+culture_celtic: Celtic knotwork interlace patterns and illumination
+culture_aztec: Aztec/Mayan codex illustration with symbolic glyphs
+culture_african_textile: West African kente or ankara textile patterns
+culture_russian_folk: Russian folk art with Palekh lacquer box style
+culture_scandinavian_folk: Scandinavian rosemaling folk art decoration
+culture_art_brut: Outsider art / Art Brut raw unpolished creativity
+culture_naive_art: Naive or folk art with childlike directness
+culture_propaganda_poster: Bold Soviet/WPA propaganda poster aesthetic
+
+# COMPOSITE & MULTI-EFFECT
+combo_cinemagraph: Still photo with one element subtly animated (loop)
+combo_parallax_3d: 2.5D parallax depth from a single image
+combo_portrait_bg_blur: Subject sharp with dreamy blurred background
+combo_miniature_world: Tilt-shift + increased saturation for toy-world look
+combo_dream_sequence: Soft glow + slow motion + color shift dreamlike
+combo_memory_flashback: Desaturated + vignette + slight blur for memory
+combo_nightmare: High contrast + distortion + red tint for nightmare
+combo_romantic: Soft focus + warm tone + bokeh for romance
+combo_action_hero: Speed ramp + lens flare + high contrast action feel
+combo_horror: Desaturated + grain + vignette + subtle flicker for horror
+combo_music_video: High saturation + anamorphic flares + stylized color
+combo_documentary: Handheld + natural light + subtle grain for realism
+combo_fairy_tale: Soft glow + warm tones + sparkle particles + vignette
+combo_noir_detective: B&W + venetian blind shadows + cigarette smoke
+combo_retro_sci_fi: CRT scanlines + green tint + wireframe overlay
+combo_acid_trip: Psychedelic colors + warping + trails + kaleidoscope
