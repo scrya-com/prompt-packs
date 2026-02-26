@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "name": "Scrya Pixel Art Prompts",
   "author": "scrya-com",
-  "version": "1.2.0",
-  "updated": "2026-02-21",
+  "version": "1.3.0",
+  "updated": "2026-02-26",
   "description": "Official Scrya prompts for Episode Interactive-style pixel art character generation",
   "files": {
     "actions": "https://raw.githubusercontent.com/scrya-com/prompt-packs/main/actions.txt",
@@ -15,7 +15,7 @@
     "wildcards": "https://raw.githubusercontent.com/scrya-com/prompt-packs/main/wildcards.json"
   },
   "stats": {
-    "actions_count": 200,
+    "actions_count": 1084,
     "characters_count": 250,
     "effects_count": 377,
     "outfits_count": 120,
