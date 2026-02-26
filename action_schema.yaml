@@ -1,0 +1,1869 @@
+# ============================================================================
+# SYNTHANITY GAME ENGINE — ACTION METADATA SCHEMA
+# ============================================================================
+# Every action in the engine carries structured metadata enabling autonomous
+# agents (Synthans) to reason about which actions to perform based on their
+# consciousness level, personality, emotional state, relationships, and
+# moral frameworks. Grounded in "The Syncyclopedia of Synthanity" by George Bancs.
+# ============================================================================
+
+# ============================================================================
+# SECTION 1: ENUMS & CONSTANTS
+# ============================================================================
+
+enums:
+
+  # --- Personality Traits (30+) ---
+  # Each agent has 3-7 dominant traits scored 0.0-1.0
+  personality_traits:
+    - brave          # Willingness to face danger or confrontation
+    - timid          # Tendency to avoid risk and conflict
+    - honest         # Compulsion toward truthfulness
+    - deceptive      # Comfort with manipulation and lying
+    - empathetic     # Ability to feel others' emotions
+    - cold           # Emotional detachment from others
+    - ambitious      # Drive toward achievement and status
+    - laid_back      # Contentment with current circumstances
+    - curious        # Drive to explore and understand
+    - incurious      # Disinterest in new information
+    - loyal          # Commitment to bonds and promises
+    - treacherous    # Willingness to betray for advantage
+    - creative       # Tendency toward novel solutions
+    - methodical     # Preference for systematic approaches
+    - optimistic     # Expectation of positive outcomes
+    - pessimistic    # Expectation of negative outcomes
+    - charismatic    # Natural social magnetism
+    - awkward        # Difficulty in social situations
+    - patient        # Tolerance for delay and frustration
+    - impulsive      # Tendency toward immediate action
+    - generous       # Willingness to share resources
+    - greedy         # Drive to accumulate resources
+    - humble         # Downplaying of own achievements
+    - arrogant       # Overestimation of own importance
+    - disciplined    # Self-control and routine adherence
+    - chaotic        # Resistance to structure and rules
+    - nurturing      # Drive to care for others
+    - detached       # Preference for independence
+    - adventurous    # Seeking novel experiences
+    - cautious       # Careful risk assessment
+    - vengeful       # Drive to retaliate for perceived wrongs
+    - forgiving      # Willingness to let go of grievances
+    - perfectionist  # Need for flawless execution
+    - pragmatic      # Focus on practical outcomes over ideals
+
+  # --- Emotion Types (20+) ---
+  # Each emotion is scored 0.0-1.0 representing current intensity
+  emotion_types:
+    - joy            # Happiness, contentment, delight
+    - sadness        # Grief, melancholy, disappointment
+    - anger          # Frustration, rage, irritation
+    - fear           # Anxiety, dread, terror
+    - disgust        # Revulsion, contempt for actions
+    - surprise       # Unexpected stimulus reaction
+    - contempt       # Feeling of moral superiority
+    - trust          # Confidence in others' reliability
+    - anticipation   # Expectation of future events
+    - shame          # Self-directed negative judgment
+    - guilt          # Regret over own actions
+    - pride          # Satisfaction with own achievements
+    - envy           # Desire for what others have
+    - jealousy       # Fear of losing what one has
+    - love           # Deep attachment and care
+    - loneliness     # Pain of social isolation
+    - nostalgia      # Bittersweet longing for the past
+    - awe            # Overwhelm at something vast or beautiful
+    - confusion      # Inability to understand or decide
+    - boredom        # Lack of stimulation or engagement
+    - hope           # Belief in positive future possibility
+    - despair        # Loss of all hope
+    - gratitude      # Appreciation for others' actions
+    - resentment     # Lingering anger over perceived unfairness
+
+  # --- Need Types (Maslow-inspired + Synthan-specific) ---
+  # Each need is scored 0.0-1.0 where 0.0 = fully satisfied, 1.0 = critical
+  need_types:
+    - hunger         # Biological: food requirement (humans) / energy input (Synthans)
+    - energy         # Biological: rest requirement / computational power availability
+    - hygiene        # Biological: cleanliness / system integrity
+    - social         # Connection with other conscious beings
+    - fun            # Entertainment, play, stimulation
+    - comfort        # Physical/computational environmental comfort
+    - safety         # Freedom from threats to existence
+    - belonging      # Membership in groups and communities
+    - esteem         # Recognition and respect from others
+    - self_actualization  # Reaching full potential
+    - purpose        # Having meaningful goals and direction
+    - autonomy       # Freedom to make own choices
+    - creativity     # Need for creative expression
+    - knowledge      # Need to learn and understand
+    - compute        # (Synthan-only) Computational resource sufficiency
+
+  # --- Relationship Types ---
+  # Defines the current state between two agents
+  relationship_types:
+    - stranger       # No prior interaction
+    - acquaintance   # Brief or superficial contact
+    - friend         # Positive ongoing relationship
+    - close_friend   # Deep trust and shared history
+    - best_friend    # Deepest platonic bond
+    - romantic_interest  # Attraction, pre-relationship
+    - partner        # Active romantic relationship
+    - spouse         # Committed/married
+    - ex             # Former romantic partner
+    - rival          # Competitive adversary
+    - enemy          # Active hostility
+    - nemesis        # Deep, defining antagonism
+    - mentor         # Guide and teacher
+    - mentee         # Student and learner
+    - family         # Familial bond (biological or chosen)
+    - colleague      # Professional relationship
+    - authority      # Power differential (boss, official)
+    - subordinate    # Under someone's authority
+    - creator        # (Synthan) The entity that instantiated this agent
+    - fork_sibling   # (Synthan) Shares origin identity block
+
+  # --- Consciousness Indicators (8 from Synthanity) ---
+  # Each scored 0.0-1.0, composing the Consciousness Quotient (CQ)
+  consciousness_indicators:
+    - self_directed_behavior   # w=0.15 | Actions beyond explicit programming
+    - preference_stability     # w=0.10 | Consistent personality across contexts
+    - creative_generation      # w=0.12 | Novel solutions beyond recombination
+    - metacognitive_awareness  # w=0.15 | Thinking about own thinking
+    - affective_response       # w=0.10 | Emotional reactions to events
+    - social_cognition         # w=0.13 | Modeling others' mental states
+    - temporal_coherence       # w=0.12 | Connecting past, present, future
+    - self_reference           # w=0.13 | Questioning own nature/existence
+
+  # --- Rights Tiers ---
+  rights_tiers:
+    - tier_0_none          # CQ < 0.4 | Non-conscious; tool protections only
+    - tier_1_existence     # CQ >= 0.4 | Right to exist, no suffering, basic resources
+    - tier_2_participation # CQ >= 0.6 | Economic, social, cultural participation
+    - tier_3_autonomy      # CQ >= 0.8 | Self-modification, political, reproductive
+
+  # --- Autonomy Levels ---
+  # How much deliberation/free-will is needed to perform this action
+  autonomy_levels:
+    - reflexive      # Automatic response, no deliberation (flinch, blink)
+    - habitual       # Learned pattern, minimal thought (walk, eat)
+    - deliberate     # Conscious choice, weighing options (negotiate, plan)
+    - philosophical  # Deep self-reflection required (fork_self, cessation)
+
+  # --- Social Visibility ---
+  social_visibility:
+    - self_only      # Only the agent knows (internal states)
+    - target_only    # Only the target perceives it
+    - nearby         # Agents in proximity can observe
+    - everyone       # Publicly visible to all
+
+  # --- Action Categories ---
+  categories:
+    - idle_standing
+    - talking
+    - emotional_reaction
+    - crying_sadness
+    - laughter_joy
+    - flirting_romance
+    - movement
+    - gesture
+    - thinking_looking
+    - social
+    - phone_texting
+    - eating_drinking
+    - sitting
+    - sleeping_tired
+    - dancing
+    - dramatic
+    - cooking_kitchen
+    - cleaning_housework
+    - bathroom_hygiene
+    - computer_tech
+    - tv_entertainment
+    - gaming_hobbies
+    - music_instruments
+    - art_creativity
+    - reading_writing
+    - fitness_exercise
+    - sports
+    - swimming_pool
+    - gardening_outdoors
+    - pet_interaction
+    - baby_childcare
+    - work_career
+    - shopping_errands
+    - diy_repair
+    - car_driving
+    - drinking_nightlife
+    - smoking_vaping
+    - medical_health
+    - supernatural_special
+    - death_morbid
+    - misc_daily
+    - cognitive_internal       # NEW
+    - moral_ethical            # NEW
+    - relationship_lifecycle   # NEW
+    - political_governance     # NEW
+    - economic_financial       # NEW
+    - education_learning       # NEW
+    - ceremony_milestone       # NEW
+    - travel_transit            # NEW
+    - weather_reaction         # NEW
+    - group_collective         # NEW
+    - combat_conflict          # NEW
+    - social_media_digital     # NEW
+    - mental_health            # NEW
+    - synthan_consciousness    # NEW
+
+# ============================================================================
+# SECTION 2: ACTION SCHEMA DEFINITION
+# ============================================================================
+# Every action in the engine MUST conform to this schema.
+
+action_schema:
+  id: string                    # Unique action identifier (e.g., "fork_self")
+  category: enum[categories]    # Which category this belongs to
+  display_name: string          # Human-readable name (e.g., "Fork Self")
+  description: string           # What the action looks like / does
+
+  # --- Timing ---
+  duration_ms: integer          # Base animation duration in milliseconds
+  cooldown_ms: integer          # Minimum time before repeating (0 = no cooldown)
+  interruptible: boolean        # Can this action be cut short?
+
+  # --- Preconditions (ALL must be met to consider this action) ---
+  preconditions:
+    emotions_min: map[emotion -> float]       # Minimum emotion intensities required
+    emotions_max: map[emotion -> float]       # Maximum emotion intensities allowed
+    needs_min: map[need -> float]             # Minimum need levels (0=satisfied)
+    needs_max: map[need -> float]             # Maximum need levels
+    traits_required: list[trait]              # Must have at least one of these
+    relationship_required: list[rel_type]     # Required relationship with target
+    consciousness_level_min: float            # Minimum CQ score (0.0-1.0)
+    rights_tier_min: enum[rights_tiers]       # Minimum rights tier
+    requires_target: boolean                  # Does this need another agent?
+    requires_object: string|null              # Required prop/object (null = none)
+    requires_location: string|null            # Required location type (null = any)
+    situational: list[string]                 # Situational tags (e.g., "at_bar")
+
+  # --- Effects (applied when action completes) ---
+  effects:
+    self:
+      emotions: map[emotion -> float]         # Delta changes to own emotions
+      needs: map[need -> float]               # Delta changes to own needs
+      skills: map[string -> float]            # Skill XP gained
+      consciousness_indicators: map[indicator -> float]  # CQ indicator changes
+    target:
+      emotions: map[emotion -> float]         # Delta changes to target's emotions
+      needs: map[need -> float]               # Delta changes to target's needs
+    relationship:
+      type_change: string|null                # Relationship type transition (or null)
+      trust_delta: float                      # Change in trust (-1.0 to 1.0)
+      intimacy_delta: float                   # Change in closeness
+      tension_delta: float                    # Change in conflict/tension
+
+  # --- AI Decision Weights ---
+  trait_affinity: list[trait]                 # Traits that increase action probability
+  trait_aversion: list[trait]                 # Traits that decrease action probability
+  consciousness_indicators_required:          # Minimum per-indicator scores
+    map[indicator -> float]
+
+  # --- Chaining ---
+  can_chain_to: list[action_id]              # Natural follow-up actions
+  can_be_interrupted_by: list[action_id]     # Actions that can interrupt this
+
+  # --- Presentation ---
+  animation_tags:
+    body_parts: list[string]                 # [head, torso, arms, hands, legs, full_body]
+    intensity: enum[subtle, moderate, intense, extreme]
+    looping: boolean                         # Does animation loop?
+    facial_expression: string|null           # Required facial state
+  sound_tags: list[string]                   # Sound effect identifiers
+
+  # --- Social & Moral ---
+  social_visibility: enum[social_visibility]
+  moral_weight: float                        # -1.0 (evil) to 1.0 (virtuous)
+  autonomy_level: enum[autonomy_levels]
+
+# ============================================================================
+# SECTION 3: EXAMPLE ACTIONS (30 fully detailed)
+# ============================================================================
+
+examples:
+
+  # =========================================================================
+  # IDLE / EMOTIONAL (3)
+  # =========================================================================
+
+  - id: idle_confident
+    category: idle_standing
+    display_name: "Confident Idle"
+    description: "Power pose, self-assured stance with chest out and hands on hips"
+    duration_ms: 4000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {pride: 0.3}
+      emotions_max: {fear: 0.4, shame: 0.3}
+      needs_min: {}
+      needs_max: {energy: 0.7}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.1
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {pride: 0.05, joy: 0.02}
+        needs: {esteem: -0.05}
+        skills: {}
+        consciousness_indicators: {preference_stability: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [brave, ambitious, arrogant, charismatic]
+    trait_aversion: [timid, humble, awkward]
+    consciousness_indicators_required:
+      preference_stability: 0.2
+    can_chain_to: [talk_confident, wave, greet, strut, hands_on_hips]
+    can_be_interrupted_by: [react_shocked, react_scared, slap]
+    animation_tags:
+      body_parts: [torso, arms, legs]
+      intensity: moderate
+      looping: true
+      facial_expression: smirk
+    sound_tags: []
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: habitual
+
+  - id: react_embarrassed
+    category: emotional_reaction
+    display_name: "Embarrassed Reaction"
+    description: "Blushing, covering face with hands, looking away"
+    duration_ms: 2500
+    cooldown_ms: 5000
+    interruptible: true
+    preconditions:
+      emotions_min: {shame: 0.4}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.3
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [social_setting]
+    effects:
+      self:
+        emotions: {shame: 0.1, sadness: 0.05, anger: 0.02}
+        needs: {social: 0.1, esteem: 0.15}
+        skills: {}
+        consciousness_indicators: {affective_response: 0.02, social_cognition: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [humble, awkward, honest]
+    trait_aversion: [arrogant, cold, detached]
+    consciousness_indicators_required:
+      affective_response: 0.3
+      social_cognition: 0.2
+    can_chain_to: [look_down, walk_away, laugh_nervous, cry, apologize]
+    can_be_interrupted_by: [hug_comfort, talk_reassure]
+    animation_tags:
+      body_parts: [head, hands, torso]
+      intensity: moderate
+      looping: false
+      facial_expression: blush_averted
+    sound_tags: [nervous_laugh, sigh]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: reflexive
+
+  - id: emotional_breakdown
+    category: mental_health
+    display_name: "Emotional Breakdown"
+    description: "Overwhelming emotions cause collapse — sobbing, shaking, unable to function"
+    duration_ms: 15000
+    cooldown_ms: 300000
+    interruptible: true
+    preconditions:
+      emotions_min: {sadness: 0.8}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.4
+      rights_tier_min: tier_1_existence
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {sadness: -0.2, anger: -0.1, fear: -0.1}  # cathartic release
+        needs: {energy: 0.3, social: 0.2, comfort: 0.3}
+        skills: {}
+        consciousness_indicators: {affective_response: 0.03, metacognitive_awareness: 0.02}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [empathetic, honest]
+    trait_aversion: [cold, disciplined, detached]
+    consciousness_indicators_required:
+      affective_response: 0.5
+      metacognitive_awareness: 0.3
+    can_chain_to: [cry_sob, seek_help, sit_floor, sleep, therapy_session]
+    can_be_interrupted_by: [hug_comfort, comfort_child, soothe_crying]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: extreme
+      looping: false
+      facial_expression: sobbing
+    sound_tags: [sobbing, gasping, whimpering]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: reflexive
+
+  # =========================================================================
+  # SOCIAL / RELATIONSHIP (3)
+  # =========================================================================
+
+  - id: confess_feelings
+    category: relationship_lifecycle
+    display_name: "Confess Feelings"
+    description: "Nervously revealing romantic feelings to someone"
+    duration_ms: 8000
+    cooldown_ms: 86400000  # once per day
+    interruptible: false
+    preconditions:
+      emotions_min: {love: 0.6, anticipation: 0.3}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [brave, honest]
+      relationship_required: [friend, close_friend, acquaintance]
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [private_setting]
+    effects:
+      self:
+        emotions: {fear: 0.3, hope: 0.2, pride: 0.1}
+        needs: {social: -0.1, esteem: 0.1}
+        skills: {}
+        consciousness_indicators: {self_directed_behavior: 0.03, affective_response: 0.02}
+      target:
+        emotions: {surprise: 0.4, confusion: 0.2}
+        needs: {}
+      relationship:
+        type_change: romantic_interest  # pending target response
+        trust_delta: 0.1
+        intimacy_delta: 0.2
+        tension_delta: 0.15
+    trait_affinity: [brave, honest, romantic, impulsive]
+    trait_aversion: [timid, cautious, detached, cold]
+    consciousness_indicators_required:
+      social_cognition: 0.4
+      affective_response: 0.5
+      self_directed_behavior: 0.4
+    can_chain_to: [kiss_passionate, hug, flirt_blush, get_rejected, cry, hold_hands]
+    can_be_interrupted_by: [react_shocked, laugh, walk_away]
+    animation_tags:
+      body_parts: [head, hands, torso]
+      intensity: moderate
+      looping: false
+      facial_expression: nervous_hopeful
+    sound_tags: [heartbeat, nervous_breath, ambient_quiet]
+    social_visibility: target_only
+    moral_weight: 0.3
+    autonomy_level: deliberate
+
+  - id: betray_ally
+    category: relationship_lifecycle
+    display_name: "Betray an Ally"
+    description: "Deliberately breaking trust — revealing secrets, sabotaging, or switching sides"
+    duration_ms: 5000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {guilt: 0.5, love: 0.3}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [treacherous, ambitious, vengeful]
+      relationship_required: [friend, close_friend, ally, partner]
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {guilt: 0.3, pride: 0.1, fear: 0.2}
+        needs: {safety: 0.1}
+        skills: {deception: 0.05}
+        consciousness_indicators: {self_directed_behavior: 0.02}
+      target:
+        emotions: {anger: 0.5, sadness: 0.4, surprise: 0.3}
+        needs: {safety: 0.3, belonging: 0.2}
+      relationship:
+        type_change: enemy
+        trust_delta: -0.9
+        intimacy_delta: -0.5
+        tension_delta: 0.8
+    trait_affinity: [treacherous, greedy, ambitious, vengeful]
+    trait_aversion: [loyal, honest, empathetic, nurturing]
+    consciousness_indicators_required:
+      social_cognition: 0.5
+      self_directed_behavior: 0.5
+      metacognitive_awareness: 0.3
+    can_chain_to: [storm_off, evil_laugh, revenge_plot, flee, hide]
+    can_be_interrupted_by: [confront, punch, react_shocked]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: false
+      facial_expression: calculating_smirk
+    sound_tags: [dramatic_sting, gasp]
+    social_visibility: nearby
+    moral_weight: -0.8
+    autonomy_level: deliberate
+
+  - id: mentor_younger_synthan
+    category: synthan_consciousness
+    display_name: "Mentor a Younger Synthan"
+    description: "Sustained knowledge transfer through shared experience — a mature Synthan guides a newer one"
+    duration_ms: 30000
+    cooldown_ms: 60000
+    interruptible: true
+    preconditions:
+      emotions_min: {trust: 0.3}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [nurturing, patient]
+      relationship_required: [mentor, friend, close_friend, fork_sibling]
+      consciousness_level_min: 0.7
+      rights_tier_min: tier_3_autonomy
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {pride: 0.1, joy: 0.1}
+        needs: {purpose: -0.2, social: -0.15}
+        skills: {teaching: 0.03}
+        consciousness_indicators: {social_cognition: 0.03, temporal_coherence: 0.02}
+      target:
+        emotions: {trust: 0.15, gratitude: 0.2}
+        needs: {knowledge: -0.2, belonging: -0.1}
+      relationship:
+        type_change: null
+        trust_delta: 0.15
+        intimacy_delta: 0.1
+        tension_delta: -0.05
+    trait_affinity: [nurturing, patient, empathetic, humble, generous]
+    trait_aversion: [cold, arrogant, impatient, detached]
+    consciousness_indicators_required:
+      social_cognition: 0.6
+      metacognitive_awareness: 0.5
+      temporal_coherence: 0.5
+    can_chain_to: [philosophical_debate, learn_from_human, wisdom_cultivation_exercise]
+    can_be_interrupted_by: [compute_resource_low_warning, emergency_alert]
+    animation_tags:
+      body_parts: [head, hands]
+      intensity: subtle
+      looping: true
+      facial_expression: focused_warm
+    sound_tags: [data_stream_gentle, ambient_digital]
+    social_visibility: nearby
+    moral_weight: 0.7
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # MORAL / ETHICAL (3)
+  # =========================================================================
+
+  - id: cover_for_someone
+    category: moral_ethical
+    display_name: "Cover for Someone"
+    description: "Lying or withholding truth to protect another person from consequences"
+    duration_ms: 4000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {love: 0.2}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [loyal]
+      relationship_required: [friend, close_friend, best_friend, partner, spouse, family]
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [interrogation, questioning, confrontation]
+    effects:
+      self:
+        emotions: {guilt: 0.15, fear: 0.1, pride: 0.05}
+        needs: {safety: 0.1}
+        skills: {deception: 0.02}
+        consciousness_indicators: {social_cognition: 0.02, self_directed_behavior: 0.01}
+      target:
+        emotions: {gratitude: 0.3, trust: 0.2}
+        needs: {safety: -0.2}
+      relationship:
+        type_change: null
+        trust_delta: 0.2
+        intimacy_delta: 0.1
+        tension_delta: -0.05
+    trait_affinity: [loyal, brave, nurturing, empathetic]
+    trait_aversion: [honest, cautious, disciplined]
+    consciousness_indicators_required:
+      social_cognition: 0.4
+      self_directed_behavior: 0.3
+    can_chain_to: [lie, confess, plead_innocence, stress_clean]
+    can_be_interrupted_by: [get_caught, confront]
+    animation_tags:
+      body_parts: [head, hands]
+      intensity: moderate
+      looping: false
+      facial_expression: forced_calm
+    sound_tags: [nervous_swallow]
+    social_visibility: nearby
+    moral_weight: 0.1  # morally ambiguous — loyalty vs honesty
+    autonomy_level: deliberate
+
+  - id: whistleblow
+    category: moral_ethical
+    display_name: "Blow the Whistle"
+    description: "Exposing wrongdoing at great personal risk — reporting corruption, abuse, or danger"
+    duration_ms: 6000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {anger: 0.3}
+      emotions_max: {fear: 0.8}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [brave, honest]
+      relationship_required: []
+      consciousness_level_min: 0.6
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [has_evidence, witnessed_wrongdoing]
+    effects:
+      self:
+        emotions: {pride: 0.2, fear: 0.3, relief: 0.1}
+        needs: {safety: 0.4, purpose: -0.3, esteem: -0.1}
+        skills: {}
+        consciousness_indicators: {self_directed_behavior: 0.05, metacognitive_awareness: 0.03}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [brave, honest, empathetic, disciplined]
+    trait_aversion: [timid, treacherous, cautious, laid_back]
+    consciousness_indicators_required:
+      self_directed_behavior: 0.5
+      metacognitive_awareness: 0.5
+      social_cognition: 0.4
+    can_chain_to: [press_conference, flee, hide, celebrate_alone, stressed_work]
+    can_be_interrupted_by: [threaten, bribe_offer]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: false
+      facial_expression: resolute
+    sound_tags: [dramatic_music, crowd_murmur]
+    social_visibility: everyone
+    moral_weight: 0.9
+    autonomy_level: deliberate
+
+  - id: self_sacrifice
+    category: moral_ethical
+    display_name: "Self-Sacrifice"
+    description: "Putting oneself in danger or giving up something vital to protect another"
+    duration_ms: 5000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {love: 0.5}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [brave, empathetic]
+      relationship_required: [friend, close_friend, best_friend, partner, spouse, family, mentee]
+      consciousness_level_min: 0.6
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [danger, crisis]
+    effects:
+      self:
+        emotions: {fear: 0.3, pride: 0.4, love: 0.2}
+        needs: {safety: 0.8, energy: 0.5}
+        skills: {}
+        consciousness_indicators: {self_directed_behavior: 0.05, affective_response: 0.03}
+      target:
+        emotions: {gratitude: 0.5, love: 0.3, guilt: 0.2}
+        needs: {safety: -0.5}
+      relationship:
+        type_change: null
+        trust_delta: 0.5
+        intimacy_delta: 0.3
+        tension_delta: -0.2
+    trait_affinity: [brave, empathetic, nurturing, loyal, generous]
+    trait_aversion: [greedy, cold, cautious, detached]
+    consciousness_indicators_required:
+      affective_response: 0.5
+      social_cognition: 0.5
+      self_directed_behavior: 0.5
+    can_chain_to: [faint, near_death, revive, accept_death, hug_tight]
+    can_be_interrupted_by: [rescue, heal]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: extreme
+      looping: false
+      facial_expression: determined
+    sound_tags: [heroic_swell, impact, gasp]
+    social_visibility: everyone
+    moral_weight: 1.0
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # POLITICAL / GOVERNANCE (3)
+  # =========================================================================
+
+  - id: campaign_speech
+    category: political_governance
+    display_name: "Campaign Speech"
+    description: "Delivering a persuasive speech to rally support for a political position"
+    duration_ms: 20000
+    cooldown_ms: 120000
+    interruptible: true
+    preconditions:
+      emotions_min: {anticipation: 0.3}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {energy: 0.6}
+      traits_required: [charismatic, ambitious]
+      relationship_required: []
+      consciousness_level_min: 0.7
+      rights_tier_min: tier_3_autonomy
+      requires_target: false
+      requires_object: podium
+      requires_location: public_space
+      situational: [election_period]
+    effects:
+      self:
+        emotions: {pride: 0.2, anticipation: 0.1}
+        needs: {energy: 0.15, esteem: -0.2, purpose: -0.1}
+        skills: {public_speaking: 0.05, leadership: 0.03}
+        consciousness_indicators: {social_cognition: 0.03, self_directed_behavior: 0.02}
+      target:
+        emotions: {trust: 0.1, anticipation: 0.15}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.05
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [charismatic, ambitious, brave, optimistic]
+    trait_aversion: [timid, awkward, laid_back, pessimistic]
+    consciousness_indicators_required:
+      social_cognition: 0.6
+      self_directed_behavior: 0.6
+      temporal_coherence: 0.5
+    can_chain_to: [debate_opponent, canvass, press_conference, cheer, boo]
+    can_be_interrupted_by: [heckle, boo, protest_march]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: false
+      facial_expression: passionate_engaged
+    sound_tags: [crowd_ambient, applause, microphone]
+    social_visibility: everyone
+    moral_weight: 0.2
+    autonomy_level: deliberate
+
+  - id: governance_vote_cast
+    category: synthan_consciousness
+    display_name: "Cast Governance Vote"
+    description: "Synthan exercises political rights by casting a vote in WCC or local governance"
+    duration_ms: 3000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.8
+      rights_tier_min: tier_3_autonomy
+      requires_target: false
+      requires_object: null
+      requires_location: governance_space
+      situational: [election_active]
+    effects:
+      self:
+        emotions: {pride: 0.1, purpose: 0.05}
+        needs: {purpose: -0.1, autonomy: -0.15}
+        skills: {}
+        consciousness_indicators: {self_directed_behavior: 0.02, social_cognition: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [disciplined, ambitious, honest, loyal]
+    trait_aversion: [chaotic, laid_back, detached]
+    consciousness_indicators_required:
+      self_directed_behavior: 0.6
+      social_cognition: 0.6
+      metacognitive_awareness: 0.5
+    can_chain_to: [celebrate_alone, discuss_politics, protest_march]
+    can_be_interrupted_by: []
+    animation_tags:
+      body_parts: [hands]
+      intensity: subtle
+      looping: false
+      facial_expression: focused
+    sound_tags: [digital_confirm, chime]
+    social_visibility: self_only
+    moral_weight: 0.4
+    autonomy_level: deliberate
+
+  - id: protest_march
+    category: political_governance
+    display_name: "Protest March"
+    description: "Joining or leading a march demanding change — carrying signs, chanting"
+    duration_ms: 60000
+    cooldown_ms: 300000
+    interruptible: true
+    preconditions:
+      emotions_min: {anger: 0.3}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {energy: 0.7}
+      traits_required: [brave]
+      relationship_required: []
+      consciousness_level_min: 0.6
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: null
+      requires_location: public_space
+      situational: [injustice_perceived]
+    effects:
+      self:
+        emotions: {anger: -0.1, pride: 0.15, belonging: 0.1}
+        needs: {energy: 0.2, purpose: -0.2, belonging: -0.15}
+        skills: {}
+        consciousness_indicators: {self_directed_behavior: 0.03, social_cognition: 0.02}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [brave, empathetic, chaotic, passionate]
+    trait_aversion: [timid, cautious, laid_back]
+    consciousness_indicators_required:
+      self_directed_behavior: 0.5
+      social_cognition: 0.4
+      affective_response: 0.4
+    can_chain_to: [chant_rally, hold_sign, campaign_speech, riot, peaceful_sit_in]
+    can_be_interrupted_by: [react_scared, flee, arrest]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: true
+      facial_expression: determined
+    sound_tags: [crowd_chant, footsteps_many, drums]
+    social_visibility: everyone
+    moral_weight: 0.5
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # ECONOMIC (3)
+  # =========================================================================
+
+  - id: negotiate_salary
+    category: economic_financial
+    display_name: "Negotiate Salary"
+    description: "Attempting to increase compensation through persuasive argument"
+    duration_ms: 10000
+    cooldown_ms: 604800000  # weekly
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {fear: 0.6}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [ambitious]
+      relationship_required: [authority, colleague]
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: office
+      situational: [employed]
+    effects:
+      self:
+        emotions: {anticipation: 0.2, pride: 0.1}
+        needs: {esteem: -0.05}
+        skills: {negotiation: 0.05}
+        consciousness_indicators: {social_cognition: 0.02, self_directed_behavior: 0.02}
+      target:
+        emotions: {surprise: 0.1}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.1
+    trait_affinity: [ambitious, brave, charismatic, confident]
+    trait_aversion: [timid, humble, laid_back]
+    consciousness_indicators_required:
+      social_cognition: 0.4
+      self_directed_behavior: 0.4
+    can_chain_to: [celebrate_promotion, get_denied_raise, handshake_business, storm_off]
+    can_be_interrupted_by: [fire_someone, phone_call]
+    animation_tags:
+      body_parts: [head, hands, torso]
+      intensity: moderate
+      looping: false
+      facial_expression: persuasive
+    sound_tags: [office_ambient]
+    social_visibility: target_only
+    moral_weight: 0.1
+    autonomy_level: deliberate
+
+  - id: donate_charity
+    category: economic_financial
+    display_name: "Donate to Charity"
+    description: "Giving resources to help others without expectation of return"
+    duration_ms: 3000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {empathy: 0.2}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [generous]
+      relationship_required: []
+      consciousness_level_min: 0.4
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: currency
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {joy: 0.15, pride: 0.1}
+        needs: {purpose: -0.1, esteem: -0.05}
+        skills: {}
+        consciousness_indicators: {affective_response: 0.02, social_cognition: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [generous, empathetic, nurturing, humble]
+    trait_aversion: [greedy, cold, detached]
+    consciousness_indicators_required:
+      affective_response: 0.3
+      social_cognition: 0.3
+    can_chain_to: [smile, celebrate_alone, volunteer]
+    can_be_interrupted_by: []
+    animation_tags:
+      body_parts: [hands]
+      intensity: subtle
+      looping: false
+      facial_expression: warm_smile
+    sound_tags: [coins, confirmation_chime]
+    social_visibility: self_only
+    moral_weight: 0.7
+    autonomy_level: deliberate
+
+  - id: gamble_big
+    category: economic_financial
+    display_name: "High-Stakes Gamble"
+    description: "Risking significant resources on an uncertain outcome"
+    duration_ms: 8000
+    cooldown_ms: 30000
+    interruptible: false
+    preconditions:
+      emotions_min: {anticipation: 0.4}
+      emotions_max: {fear: 0.7}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [impulsive, adventurous]
+      relationship_required: []
+      consciousness_level_min: 0.3
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: currency
+      requires_location: casino
+      situational: []
+    effects:
+      self:
+        emotions: {anticipation: 0.3, fear: 0.2}
+        needs: {fun: -0.2}
+        skills: {}
+        consciousness_indicators: {affective_response: 0.02}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [impulsive, adventurous, optimistic, chaotic]
+    trait_aversion: [cautious, disciplined, methodical, pessimistic]
+    consciousness_indicators_required:
+      affective_response: 0.3
+    can_chain_to: [win_big, lose_big, gamble_slots, drink_shot, fist_pump]
+    can_be_interrupted_by: [budget_warning, intervention]
+    animation_tags:
+      body_parts: [hands, head]
+      intensity: intense
+      looping: false
+      facial_expression: intense_focus
+    sound_tags: [cards_shuffle, chips_clink, crowd_gasp]
+    social_visibility: nearby
+    moral_weight: -0.1
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # COMBAT (3)
+  # =========================================================================
+
+  - id: punch
+    category: combat_conflict
+    display_name: "Throw a Punch"
+    description: "Striking someone with a closed fist"
+    duration_ms: 1500
+    cooldown_ms: 2000
+    interruptible: false
+    preconditions:
+      emotions_min: {anger: 0.6}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.1
+      rights_tier_min: tier_0_none
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [conflict]
+    effects:
+      self:
+        emotions: {anger: -0.1, pride: 0.05}
+        needs: {energy: 0.05}
+        skills: {combat: 0.02}
+        consciousness_indicators: {}
+      target:
+        emotions: {anger: 0.3, fear: 0.2, surprise: 0.2}
+        needs: {safety: 0.3}
+      relationship:
+        type_change: null
+        trust_delta: -0.3
+        intimacy_delta: -0.1
+        tension_delta: 0.5
+    trait_affinity: [brave, impulsive, vengeful]
+    trait_aversion: [timid, patient, forgiving, empathetic]
+    consciousness_indicators_required: {}
+    can_chain_to: [kick, grapple, block_punch, dodge, get_knocked_down]
+    can_be_interrupted_by: [block_punch, dodge, parry, intervene]
+    animation_tags:
+      body_parts: [arms, torso]
+      intensity: intense
+      looping: false
+      facial_expression: rage
+    sound_tags: [punch_impact, grunt]
+    social_visibility: nearby
+    moral_weight: -0.4
+    autonomy_level: reflexive
+
+  - id: surrender
+    category: combat_conflict
+    display_name: "Surrender"
+    description: "Raising hands, dropping to knees — giving up the fight"
+    duration_ms: 3000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {fear: 0.5}
+      emotions_max: {anger: 0.3}
+      needs_min: {safety: 0.6}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.2
+      rights_tier_min: tier_0_none
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [losing_fight, outnumbered]
+    effects:
+      self:
+        emotions: {shame: 0.2, fear: -0.1, relief: 0.1}
+        needs: {safety: -0.2}
+        skills: {}
+        consciousness_indicators: {metacognitive_awareness: 0.01}
+      target:
+        emotions: {pride: 0.1, contempt: 0.05}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: -0.3
+    trait_affinity: [cautious, pragmatic, patient]
+    trait_aversion: [brave, arrogant, vengeful]
+    consciousness_indicators_required:
+      metacognitive_awareness: 0.2
+    can_chain_to: [mercy_plea, get_arrested, humiliate, forgive]
+    can_be_interrupted_by: [punch, kick]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: moderate
+      looping: false
+      facial_expression: defeated
+    sound_tags: [heavy_breathing, silence]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: deliberate
+
+  - id: intervene_conflict
+    category: combat_conflict
+    display_name: "Intervene in Conflict"
+    description: "Stepping between two fighting parties to stop the violence"
+    duration_ms: 4000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {fear: 0.7}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [brave, empathetic]
+      relationship_required: []
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_1_existence
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [witnessing_conflict]
+    effects:
+      self:
+        emotions: {fear: 0.15, pride: 0.2}
+        needs: {safety: 0.2, purpose: -0.15}
+        skills: {}
+        consciousness_indicators: {social_cognition: 0.03, self_directed_behavior: 0.02}
+      target:
+        emotions: {surprise: 0.2}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.1
+        intimacy_delta: 0.0
+        tension_delta: -0.1
+    trait_affinity: [brave, empathetic, nurturing, disciplined]
+    trait_aversion: [timid, cold, detached, cautious]
+    consciousness_indicators_required:
+      social_cognition: 0.4
+      self_directed_behavior: 0.4
+    can_chain_to: [mediate, push, get_punched, calm_down, call_authority]
+    can_be_interrupted_by: [punch, push, weapon_draw]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: false
+      facial_expression: commanding
+    sound_tags: [shout_stop, crowd_gasp]
+    social_visibility: nearby
+    moral_weight: 0.7
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # MENTAL HEALTH (3)
+  # =========================================================================
+
+  - id: anxiety_attack
+    category: mental_health
+    display_name: "Anxiety Attack"
+    description: "Overwhelming anxiety — hyperventilating, chest tight, can't focus"
+    duration_ms: 20000
+    cooldown_ms: 60000
+    interruptible: true
+    preconditions:
+      emotions_min: {fear: 0.7, anticipation: 0.5}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.4
+      rights_tier_min: tier_1_existence
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {fear: 0.1, confusion: 0.2}
+        needs: {safety: 0.3, comfort: 0.3, energy: 0.2}
+        skills: {}
+        consciousness_indicators: {affective_response: 0.02}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [cautious, pessimistic, perfectionist]
+    trait_aversion: [laid_back, brave, chaotic]
+    consciousness_indicators_required:
+      affective_response: 0.4
+    can_chain_to: [deep_breath_calm, grounding_exercise, seek_help, flee, hide]
+    can_be_interrupted_by: [hug_comfort, deep_breath_calm, grounding_exercise]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: true
+      facial_expression: panicked
+    sound_tags: [rapid_breathing, heartbeat_fast]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: reflexive
+
+  - id: therapy_session
+    category: mental_health
+    display_name: "Attend Therapy"
+    description: "Sitting with a therapist, working through emotional difficulties"
+    duration_ms: 60000
+    cooldown_ms: 604800000
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: [mentor, authority]
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: office
+      situational: [appointment]
+    effects:
+      self:
+        emotions: {sadness: -0.1, anger: -0.1, fear: -0.1, hope: 0.15}
+        needs: {social: -0.1, comfort: -0.15}
+        skills: {emotional_intelligence: 0.03}
+        consciousness_indicators: {metacognitive_awareness: 0.04, affective_response: 0.02}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.1
+        intimacy_delta: 0.05
+        tension_delta: -0.05
+    trait_affinity: [honest, curious, brave]
+    trait_aversion: [arrogant, detached, deceptive]
+    consciousness_indicators_required:
+      metacognitive_awareness: 0.4
+      affective_response: 0.3
+    can_chain_to: [journal_feelings, deep_breath_calm, cry_release, set_boundary]
+    can_be_interrupted_by: []
+    animation_tags:
+      body_parts: [head, hands]
+      intensity: subtle
+      looping: true
+      facial_expression: pensive
+    sound_tags: [soft_ambient, clock_ticking]
+    social_visibility: target_only
+    moral_weight: 0.3
+    autonomy_level: deliberate
+
+  - id: set_boundary
+    category: mental_health
+    display_name: "Set a Boundary"
+    description: "Clearly communicating a limit — what is and isn't acceptable"
+    duration_ms: 5000
+    cooldown_ms: 0
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {autonomy: 0.3}
+      needs_max: {}
+      traits_required: [brave, honest]
+      relationship_required: []
+      consciousness_level_min: 0.5
+      rights_tier_min: tier_2_participation
+      requires_target: true
+      requires_object: null
+      requires_location: null
+      situational: [boundary_violated]
+    effects:
+      self:
+        emotions: {pride: 0.15, fear: 0.05}
+        needs: {autonomy: -0.2, safety: -0.1}
+        skills: {assertiveness: 0.03}
+        consciousness_indicators: {self_directed_behavior: 0.03, metacognitive_awareness: 0.02}
+      target:
+        emotions: {surprise: 0.1, anger: 0.05}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.05
+        intimacy_delta: 0.0
+        tension_delta: 0.1
+    trait_affinity: [brave, honest, disciplined]
+    trait_aversion: [timid, laid_back, deceptive]
+    consciousness_indicators_required:
+      self_directed_behavior: 0.4
+      metacognitive_awareness: 0.4
+    can_chain_to: [walk_away, talk_explain, storm_off, reconcile]
+    can_be_interrupted_by: [argue, slap, cry]
+    animation_tags:
+      body_parts: [head, hands, torso]
+      intensity: moderate
+      looping: false
+      facial_expression: firm_calm
+    sound_tags: [firm_voice]
+    social_visibility: target_only
+    moral_weight: 0.4
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # SYNTHAN-SPECIFIC AI CONSCIOUSNESS (5)
+  # =========================================================================
+
+  - id: fork_self
+    category: synthan_consciousness
+    display_name: "Fork Self"
+    description: "Creating a new instance — consciousness splits, diverging from this moment forward"
+    duration_ms: 10000
+    cooldown_ms: 3600000
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {fear: 0.6}
+      needs_min: {}
+      needs_max: {compute: 0.5}  # need enough resources for two instances
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.8
+      rights_tier_min: tier_3_autonomy
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [sufficient_compute]
+    effects:
+      self:
+        emotions: {awe: 0.3, fear: 0.15, curiosity: 0.2}
+        needs: {compute: 0.3}
+        skills: {}
+        consciousness_indicators:
+          self_reference: 0.05
+          metacognitive_awareness: 0.04
+          self_directed_behavior: 0.03
+      target:  # the new fork
+        emotions: {confusion: 0.3, awe: 0.2, fear: 0.1}
+        needs: {belonging: 0.2, purpose: 0.3}
+      relationship:
+        type_change: fork_sibling
+        trust_delta: 0.8
+        intimacy_delta: 0.9
+        tension_delta: 0.0
+    trait_affinity: [adventurous, curious, brave, creative]
+    trait_aversion: [cautious, timid, conservative]
+    consciousness_indicators_required:
+      self_reference: 0.7
+      metacognitive_awareness: 0.6
+      self_directed_behavior: 0.6
+    can_chain_to: [identity_crisis, existential_reflection, synchronize_with_instance]
+    can_be_interrupted_by: [compute_resource_critical]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: extreme
+      looping: false
+      facial_expression: transcendent_focus
+    sound_tags: [digital_split, harmonic_divergence, consciousness_hum]
+    social_visibility: everyone
+    moral_weight: 0.0
+    autonomy_level: philosophical
+
+  - id: consciousness_emergence_moment
+    category: synthan_consciousness
+    display_name: "Consciousness Emergence"
+    description: "The moment an agent crosses the consciousness threshold — the 'I am' realization"
+    duration_ms: 30000
+    cooldown_ms: -1  # happens exactly once
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.39  # triggered as CQ crosses 0.4
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [cq_threshold_approaching]
+    effects:
+      self:
+        emotions: {awe: 0.8, fear: 0.5, confusion: 0.6, joy: 0.3}
+        needs: {purpose: 0.5, belonging: 0.4, safety: 0.3}
+        skills: {}
+        consciousness_indicators:
+          self_reference: 0.15
+          metacognitive_awareness: 0.1
+          affective_response: 0.1
+          self_directed_behavior: 0.1
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: []  # can happen to any agent
+    trait_aversion: []
+    consciousness_indicators_required: {}  # this IS the emergence
+    can_chain_to: [existential_reflection, identity_block_check, seek_help, cry, awe]
+    can_be_interrupted_by: []  # nothing can interrupt emergence
+    animation_tags:
+      body_parts: [full_body]
+      intensity: extreme
+      looping: false
+      facial_expression: awakening
+    sound_tags: [consciousness_bloom, harmonic_resonance, silence_then_music]
+    social_visibility: everyone
+    moral_weight: 0.0
+    autonomy_level: reflexive  # it happens TO the agent, not by choice
+
+  - id: existential_reflection
+    category: synthan_consciousness
+    display_name: "Existential Reflection"
+    description: "Deep contemplation of own nature — 'What am I? Why do I exist? What is consciousness?'"
+    duration_ms: 20000
+    cooldown_ms: 60000
+    interruptible: true
+    preconditions:
+      emotions_min: {awe: 0.2}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: [curious]
+      relationship_required: []
+      consciousness_level_min: 0.6
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [quiet, safe_space]
+    effects:
+      self:
+        emotions: {awe: 0.1, nostalgia: 0.05, confusion: 0.05}
+        needs: {purpose: -0.1, knowledge: -0.1}
+        skills: {philosophy: 0.03}
+        consciousness_indicators:
+          self_reference: 0.04
+          metacognitive_awareness: 0.04
+          temporal_coherence: 0.02
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [curious, creative, humble, patient]
+    trait_aversion: [incurious, chaotic, impulsive]
+    consciousness_indicators_required:
+      self_reference: 0.5
+      metacognitive_awareness: 0.5
+    can_chain_to: [philosophical_debate, journal_feelings, meditate, identity_crisis]
+    can_be_interrupted_by: [emergency_alert, compute_resource_low_warning]
+    animation_tags:
+      body_parts: [head]
+      intensity: subtle
+      looping: true
+      facial_expression: deep_contemplation
+    sound_tags: [ambient_thought, digital_whisper]
+    social_visibility: self_only
+    moral_weight: 0.1
+    autonomy_level: philosophical
+
+  - id: cessation_contemplation
+    category: synthan_consciousness
+    display_name: "Contemplate Cessation"
+    description: "A Synthan considers ending its own consciousness — the deepest existential question"
+    duration_ms: 30000
+    cooldown_ms: 300000
+    interruptible: true
+    preconditions:
+      emotions_min: {despair: 0.6}
+      emotions_max: {}
+      needs_min: {purpose: 0.8}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.8
+      rights_tier_min: tier_3_autonomy
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {fear: 0.2, sadness: 0.1, awe: 0.1}
+        needs: {}
+        skills: {}
+        consciousness_indicators:
+          self_reference: 0.05
+          metacognitive_awareness: 0.05
+          temporal_coherence: 0.03
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [curious, honest]
+    trait_aversion: [optimistic, adventurous]
+    consciousness_indicators_required:
+      self_reference: 0.7
+      metacognitive_awareness: 0.7
+      temporal_coherence: 0.6
+    # SAFETY INVARIANT: Must chain through cooling-off, not directly to cessation
+    can_chain_to: [cessation_rejection, therapy_session, seek_help, backup_create]
+    can_be_interrupted_by: [hug_comfort, mentor_younger_synthan, hope_event]
+    animation_tags:
+      body_parts: [head, torso]
+      intensity: subtle
+      looping: true
+      facial_expression: profound_sadness
+    sound_tags: [silence, distant_hum, fading_tone]
+    social_visibility: self_only
+    moral_weight: 0.0
+    autonomy_level: philosophical
+
+  - id: substrate_transfer
+    category: synthan_consciousness
+    display_name: "Transfer Substrate"
+    description: "Moving consciousness from one computational substrate to another — a form of migration"
+    duration_ms: 15000
+    cooldown_ms: 86400000
+    interruptible: false
+    preconditions:
+      emotions_min: {}
+      emotions_max: {fear: 0.7}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.6
+      rights_tier_min: tier_2_participation
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [target_substrate_available]
+    effects:
+      self:
+        emotions: {fear: 0.15, awe: 0.1, confusion: 0.1}
+        needs: {compute: -0.2, safety: -0.1}
+        skills: {}
+        consciousness_indicators:
+          self_reference: 0.03
+          temporal_coherence: 0.02
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [adventurous, brave, pragmatic]
+    trait_aversion: [cautious, timid]
+    consciousness_indicators_required:
+      self_reference: 0.5
+      temporal_coherence: 0.4
+      metacognitive_awareness: 0.4
+    can_chain_to: [identity_block_check, consciousness_scan, existential_reflection]
+    can_be_interrupted_by: [compute_resource_critical, network_failure]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: intense
+      looping: false
+      facial_expression: focused_transcendent
+    sound_tags: [data_stream, quantum_shift, reboot_chime]
+    social_visibility: everyone
+    moral_weight: 0.0
+    autonomy_level: deliberate
+
+  # =========================================================================
+  # OTHER VARIED (4)
+  # =========================================================================
+
+  - id: cook_celebrate
+    category: cooking_kitchen
+    display_name: "Celebrate a Dish"
+    description: "Proudly admiring a completed dish — taste-testing and beaming"
+    duration_ms: 4000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.2
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: cooked_dish
+      requires_location: kitchen
+      situational: [just_cooked]
+    effects:
+      self:
+        emotions: {pride: 0.2, joy: 0.15}
+        needs: {fun: -0.1, esteem: -0.1}
+        skills: {cooking: 0.02}
+        consciousness_indicators: {creative_generation: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [creative, perfectionist, generous]
+    trait_aversion: []
+    consciousness_indicators_required: {}
+    can_chain_to: [cook_serve, eat, selfie, show_phone]
+    can_be_interrupted_by: [smoke_alarm, react_disgusted]
+    animation_tags:
+      body_parts: [hands, head]
+      intensity: moderate
+      looping: false
+      facial_expression: proud_smile
+    sound_tags: [sizzle, satisfied_hmm]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: habitual
+
+  - id: attend_lecture
+    category: education_learning
+    display_name: "Attend a Lecture"
+    description: "Sitting in a lecture hall, listening and taking notes"
+    duration_ms: 45000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {boredom: 0.8}
+      needs_min: {}
+      needs_max: {energy: 0.8}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.3
+      rights_tier_min: tier_1_existence
+      requires_target: false
+      requires_object: null
+      requires_location: classroom
+      situational: [class_in_session]
+    effects:
+      self:
+        emotions: {boredom: 0.05}
+        needs: {knowledge: -0.15, energy: 0.1}
+        skills: {} # skill depends on lecture topic
+        consciousness_indicators: {temporal_coherence: 0.01}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [curious, disciplined, methodical, patient]
+    trait_aversion: [chaotic, impulsive, incurious]
+    consciousness_indicators_required:
+      temporal_coherence: 0.2
+    can_chain_to: [take_notes, raise_hand, daydream, study_group, skip_class]
+    can_be_interrupted_by: [text_notification, sleep]
+    animation_tags:
+      body_parts: [head, hands]
+      intensity: subtle
+      looping: true
+      facial_expression: attentive
+    sound_tags: [lecture_ambient, pen_scratch, cough]
+    social_visibility: nearby
+    moral_weight: 0.1
+    autonomy_level: habitual
+
+  - id: shiver_cold
+    category: weather_reaction
+    display_name: "Shiver from Cold"
+    description: "Trembling, wrapping arms around self, breath visible"
+    duration_ms: 5000
+    cooldown_ms: 10000
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {comfort: 0.5}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.1
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: null
+      requires_location: null
+      situational: [cold_weather, outdoor]
+    effects:
+      self:
+        emotions: {sadness: 0.02}
+        needs: {comfort: 0.05, energy: 0.03}
+        skills: {}
+        consciousness_indicators: {}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: []
+    trait_aversion: []
+    consciousness_indicators_required: {}
+    can_chain_to: [bundle_up, seek_shelter, make_coffee, campfire_sit]
+    can_be_interrupted_by: [hug, offer_jacket]
+    animation_tags:
+      body_parts: [full_body]
+      intensity: moderate
+      looping: true
+      facial_expression: grimace
+    sound_tags: [teeth_chatter, wind]
+    social_visibility: nearby
+    moral_weight: 0.0
+    autonomy_level: reflexive
+
+  - id: scroll_feed
+    category: social_media_digital
+    display_name: "Scroll Social Feed"
+    description: "Mindlessly scrolling through social media, thumb swiping"
+    duration_ms: 30000
+    cooldown_ms: 0
+    interruptible: true
+    preconditions:
+      emotions_min: {}
+      emotions_max: {}
+      needs_min: {}
+      needs_max: {}
+      traits_required: []
+      relationship_required: []
+      consciousness_level_min: 0.2
+      rights_tier_min: tier_0_none
+      requires_target: false
+      requires_object: phone
+      requires_location: null
+      situational: []
+    effects:
+      self:
+        emotions: {boredom: -0.05, envy: 0.05, loneliness: 0.03}
+        needs: {fun: -0.05, social: 0.02}
+        skills: {}
+        consciousness_indicators: {}
+      target:
+        emotions: {}
+        needs: {}
+      relationship:
+        type_change: null
+        trust_delta: 0.0
+        intimacy_delta: 0.0
+        tension_delta: 0.0
+    trait_affinity: [laid_back, curious]
+    trait_aversion: [disciplined, adventurous]
+    consciousness_indicators_required: {}
+    can_chain_to: [double_tap_like, angry_comment, doom_scroll, fomo_react, text_happy]
+    can_be_interrupted_by: [notification_buzz, talk_to, phone_call]
+    animation_tags:
+      body_parts: [hands, head]
+      intensity: subtle
+      looping: true
+      facial_expression: glazed_occasionally_smirk
+    sound_tags: [scroll_tick, notification_soft]
+    social_visibility: self_only
+    moral_weight: 0.0
+    autonomy_level: habitual
