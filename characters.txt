@@ -276,7 +276,6 @@
 212 | African Traditional Amara | protagonist | Young African woman with cultural dress elements, heritage-beauty energy
 213 | Gay Best Friend Marcus | friend | Young gay man with fabulous style, supportive-slay energy
 214 | Lesbian Love Interest Dana | love_interest | Young woman with confident queer style, authentic-attraction energy
-215 | Bisexual Lead Riley | protagonist | Young bisexual person with fluid style, open-to-love energy
 216 | Trans Character Jamie | protagonist | Young trans person with authentic self-expression, confident style
 217 | Nonbinary Icon Morgan | protagonist | Nonbinary person with androgynous fashion, beyond-binary energy
 218 | Mature Romance Richard | love_interest | Distinguished older man with silver-fox energy, salt-and-pepper hair

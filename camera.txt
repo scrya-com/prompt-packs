@@ -1,0 +1,247 @@
+# Shot Types
+extreme_close_up: extreme close-up shot, ECU, tight framing on eyes or detail, intimate and intense
+close_up: close-up shot, CU, face fills frame, emotional connection, character focus
+medium_close_up: medium close-up, MCU, head and shoulders framing, conversational distance
+medium_shot: medium shot, MS, waist-up framing, balanced composition, standard dialogue shot
+medium_wide: medium wide shot, MWS, knee-up framing, shows body language and environment
+wide_shot: wide shot, WS, full body visible, establishes character in space
+very_wide_shot: very wide shot, VWS, character small in frame, environment dominant
+extreme_wide_shot: extreme wide shot, EWS, vast landscape, character tiny or absent, epic scale
+establishing_shot: establishing shot, location reveal, sets the scene, geographical context
+
+# Camera Angles
+eye_level: eye level angle, neutral perspective, viewer as equal participant
+low_angle: low angle shot, camera looking up, subject appears powerful and dominant
+high_angle: high angle shot, camera looking down, subject appears vulnerable or diminished
+dutch_angle: dutch angle, tilted frame, disorientation, tension, psychological unease
+birds_eye: bird's eye view, directly overhead, god-like perspective, pattern emphasis
+worms_eye: worm's eye view, extreme low angle from ground, dramatic and imposing
+over_shoulder: over-the-shoulder shot, OTS, conversation framing, POV suggestion
+pov_shot: point of view shot, POV, subjective camera, viewer becomes character
+two_shot: two-shot, two characters in frame, relationship dynamics visible
+three_shot: three-shot, three characters framed together, group dynamics
+
+# Camera Movements
+static_shot: static shot, locked-off camera, no movement, stable and composed
+pan_left: pan left, horizontal camera rotation to the left, reveals new information
+pan_right: pan right, horizontal camera rotation to the right, follows action
+tilt_up: tilt up, vertical camera rotation upward, reveals height or ascension
+tilt_down: tilt down, vertical camera rotation downward, reveals depth or descent
+dolly_in: dolly in, camera moves toward subject, increasing intimacy and intensity
+dolly_out: dolly out, camera moves away from subject, revealing context
+dolly_push: dolly push, smooth forward movement, dramatic emphasis
+dolly_pull: dolly pull, smooth backward movement, revelation or distancing
+truck_left: truck left, camera slides laterally left, parallel tracking
+truck_right: truck right, camera slides laterally right, parallel tracking
+pedestal_up: pedestal up, camera rises vertically, ascending perspective
+pedestal_down: pedestal down, camera lowers vertically, descending perspective
+crane_up: crane shot rising, sweeping upward movement, grand reveal
+crane_down: crane shot descending, sweeping downward movement, intimate approach
+boom_shot: boom shot, vertical crane movement, dynamic perspective shift
+jib_shot: jib arm shot, fluid vertical and horizontal movement combined
+
+# Advanced Camera Movements
+tracking_shot: tracking shot, camera follows subject movement, maintains framing
+follow_shot: follow shot, camera trails behind subject, pursuit or journey feeling
+lead_shot: lead shot, camera precedes subject, anticipation and guidance
+arc_shot: arc shot, camera circles around subject, 360-degree exploration
+orbit_shot: orbit shot, camera orbits subject smoothly, dramatic revelation
+spiral_shot: spiral shot, camera spirals around subject, dizzying effect
+zoom_in: zoom in, lens zooms toward subject, focus intensification
+zoom_out: zoom out, lens zooms away from subject, context expansion
+crash_zoom: crash zoom, rapid dramatic zoom, sudden emphasis or shock
+dolly_zoom: dolly zoom, vertigo effect, Hitchcock zoom, perspective distortion
+whip_pan: whip pan, rapid horizontal movement, transition or disorientation
+whip_tilt: whip tilt, rapid vertical movement, dramatic shift
+swish_pan: swish pan, blur transition between shots, time or location jump
+
+# Steadicam and Handheld
+steadicam_shot: Steadicam shot, smooth floating movement, ethereal quality
+steadicam_follow: Steadicam follow, gliding pursuit of subject, immersive
+steadicam_walk_and_talk: Steadicam walk and talk, following conversation in motion
+handheld_shot: handheld camera, organic movement, documentary feel, immediacy
+handheld_shaky: shaky handheld, chaotic movement, urgency and tension
+handheld_subtle: subtle handheld, gentle organic movement, naturalistic
+shoulder_mount: shoulder-mounted camera, stable but organic, news style
+freehand: freehand camera work, raw and immediate, visceral energy
+
+# Specialized Techniques
+rack_focus: rack focus, shifting focus between subjects, attention direction
+pull_focus: pull focus, focus shifts from background to foreground
+push_focus: push focus, focus shifts from foreground to background
+deep_focus: deep focus, everything sharp from foreground to background
+shallow_focus: shallow depth of field, subject isolated, background blur
+bokeh_background: bokeh background, soft out-of-focus highlights, dreamy
+split_diopter: split diopter shot, two planes in focus simultaneously
+tilt_shift: tilt-shift effect, miniature appearance, selective focus plane
+
+# Lens Characteristics
+wide_angle_lens: wide angle lens, 24mm or wider, expanded perspective, distortion
+ultra_wide_lens: ultra-wide lens, 14mm or wider, extreme distortion, immersive
+fisheye_lens: fisheye lens, barrel distortion, 180-degree view, surreal
+standard_lens: standard lens, 50mm, natural perspective, human eye equivalent
+telephoto_lens: telephoto lens, 85mm+, compressed perspective, isolation
+long_lens: long telephoto lens, 200mm+, extreme compression, surveillance feel
+macro_lens: macro lens, extreme close-up capability, detail revelation
+anamorphic_lens: anamorphic lens, oval bokeh, lens flares, cinematic widescreen
+
+# Framing Techniques
+rule_of_thirds: rule of thirds composition, subject off-center, balanced tension
+centered_framing: centered framing, symmetrical composition, formal and direct
+headroom: proper headroom, space above head, comfortable framing
+lead_room: lead room, space in direction of movement or gaze, anticipation
+negative_space: negative space, empty areas emphasize subject, minimalist
+cluttered_frame: cluttered frame, busy composition, chaos or abundance
+clean_frame: clean frame, uncluttered composition, focus and clarity
+frame_within_frame: frame within frame, doorways or windows as natural frames
+foreground_framing: foreground element framing, depth and layering
+
+# Dynamic Shots
+action_shot: action shot, capturing movement and energy, dynamic framing
+reaction_shot: reaction shot, character response, emotional beat
+insert_shot: insert shot, detail emphasis, narrative information
+cutaway: cutaway shot, related detail, pacing and context
+match_cut: match cut composition, visual continuity between shots
+jump_cut: jump cut style framing, discontinuous time, jarring effect
+smash_cut: smash cut framing, abrupt tonal shift, contrast
+cross_cut: cross-cutting setup, parallel action framing, tension building
+
+# Cinematic Styles
+film_noir_style: film noir cinematography, high contrast, dramatic shadows, venetian blinds
+german_expressionist: German Expressionist style, distorted angles, dramatic shadows
+french_new_wave: French New Wave style, natural light, handheld, documentary feel
+italian_neorealist: Italian Neorealist style, location shooting, natural lighting
+hollywood_classical: classical Hollywood style, invisible editing, continuity
+soviet_montage: Soviet montage style, dynamic angles, collision editing
+dogme_style: Dogme 95 style, natural light, handheld, no artificial elements
+mumblecore_style: mumblecore style, intimate, naturalistic, improvised feel
+
+# Atmospheric Shots
+silhouette_shot: silhouette shot, backlit subject, mysterious outline
+rim_light_shot: rim light shot, edge lighting, separation from background
+chiaroscuro: chiaroscuro lighting composition, dramatic light and shadow
+high_key: high-key lighting setup, bright and even, optimistic mood
+low_key: low-key lighting setup, deep shadows, dramatic and moody
+golden_hour: golden hour cinematography, warm natural light, magic hour
+blue_hour: blue hour cinematography, cool twilight tones, melancholic
+night_exterior: night exterior shot, practical lights, urban atmosphere
+day_for_night: day-for-night technique, simulated nighttime, classic Hollywood
+
+# Movement Patterns
+circular_motion: circular camera motion, orbiting subject, hypnotic
+linear_motion: linear camera motion, straight path, purposeful
+serpentine_motion: serpentine camera path, weaving movement, exploratory
+ascending_motion: ascending camera movement, rising perspective, transcendence
+descending_motion: descending camera movement, falling perspective, descent
+lateral_motion: lateral camera movement, side-to-side, parallel to action
+diagonal_motion: diagonal camera movement, dynamic angles, energy
+
+# Speed Variations
+slow_motion: slow motion capture, time stretched, detail emphasis, 120fps+
+high_speed: high-speed photography, ultra slow motion, 240fps+, dramatic
+normal_speed: normal speed, 24fps, standard cinematic motion
+fast_motion: fast motion, time-lapse effect, accelerated action
+variable_speed: variable speed ramping, speed transitions, dynamic pacing
+time_freeze: time freeze effect, frozen moment, dramatic pause
+bullet_time: bullet time effect, frozen time with moving camera, Matrix style
+
+# Perspective Shots
+subjective_camera: subjective camera, character's literal POV, immersive
+objective_camera: objective camera, neutral observer, documentary
+semi_subjective: semi-subjective camera, near character perspective, intimate
+omniscient_view: omniscient camera view, all-knowing perspective, godlike
+limited_view: limited perspective, restricted information, mystery
+unreliable_view: unreliable camera perspective, distorted reality, psychological
+
+# Technical Shots
+long_take: long take, extended duration shot, no cuts, real-time tension
+one_shot: one-shot sequence, entire scene in single take, theatrical
+oner: oner, elaborate single-take sequence, technical virtuosity
+master_shot: master shot, wide coverage of entire scene, safety shot
+coverage_shot: coverage shot, alternative angles for editing options
+pickup_shot: pickup shot, additional detail capture, editorial flexibility
+plate_shot: plate shot, background for compositing, VFX ready
+clean_plate: clean plate, empty frame for effects, VFX preparation
+
+# Emotional Impact Shots
+intimate_shot: intimate framing, close and personal, emotional connection
+distancing_shot: distancing framing, removed and observational, alienation
+claustrophobic: claustrophobic framing, tight and confined, anxiety
+agoraphobic: agoraphobic framing, vast and exposed, vulnerability
+voyeuristic: voyeuristic framing, hidden observer, uncomfortable intimacy
+confrontational: confrontational framing, direct address, challenging
+contemplative: contemplative framing, still and observational, meditation
+
+# Genre-Specific
+horror_framing: horror movie framing, negative space, threat suggestion
+thriller_framing: thriller framing, tight angles, paranoia and tension
+comedy_framing: comedy framing, timing-focused, reaction emphasis
+romance_framing: romance framing, soft focus, intimate angles
+action_framing: action movie framing, dynamic angles, kinetic energy
+documentary_framing: documentary framing, observational, authentic
+music_video_framing: music video framing, stylized, rhythm-matched
+
+# Drone and Aerial
+drone_shot: drone shot, aerial perspective, sweeping landscape
+drone_reveal: drone reveal shot, rising to reveal vista, epic scope
+drone_tracking: drone tracking shot, aerial follow, journey emphasis
+drone_orbit: drone orbit shot, circling from above, location showcase
+aerial_establishing: aerial establishing shot, location context, geography
+helicopter_shot: helicopter shot, smooth aerial movement, cinematic scale
+cable_cam: cable cam shot, suspended camera path, stadium or concert style
+
+# Specialty Movements
+snorricam: Snorricam shot, body-mounted camera facing actor, dizzying
+bodycam: body-mounted camera, first-person action, immersive chaos
+lipstick_cam: lipstick cam, tiny camera perspective, unusual angles
+probe_lens: probe lens shot, macro with deep focus, surreal detail
+periscope_lens: periscope lens shot, around corners, spy perspective
+swing_tilt: swing and tilt movements, selective focus plane, dreamlike
+motion_control: motion control shot, precisely repeatable movement, VFX
+
+# Transitions in Camera
+push_through: push through transition, camera moves through surface
+pull_back_reveal: pull back reveal, widening to show context
+whip_to_black: whip to black transition, rapid movement to darkness
+morph_transition: morphing camera transition, seamless location shift
+match_movement: match on movement, continuous action across cuts
+invisible_cut: invisible cut framing, hidden edit within movement
+
+# Composition Elements
+leading_lines: leading lines composition, guiding eye through frame
+symmetry: symmetrical composition, balanced and formal, order
+asymmetry: asymmetrical composition, dynamic tension, visual interest
+golden_ratio: golden ratio composition, natural pleasing proportions
+diagonal_composition: diagonal lines composition, dynamic energy, movement
+triangular_composition: triangular composition, stable grouping, hierarchy
+circular_composition: circular composition, enclosing, completeness
+depth_layering: depth layering, foreground-midground-background, dimension
+
+# Camera Height
+ground_level: ground level camera, low perspective, grounded
+ankle_height: ankle height camera, very low, dramatic ground view
+knee_height: knee height camera, child's perspective, vulnerability
+waist_height: waist height camera, cowboy shot level, Western style
+chest_height: chest height camera, standard conversation level
+eye_height: eye height camera, natural human perspective
+overhead: overhead camera position, looking directly down, pattern emphasis
+ceiling_mount: ceiling-mounted camera, institutional feel, surveillance
+
+# Focus Techniques
+soft_focus: soft focus overall, dreamy ethereal quality, romance
+sharp_focus: sharp focus throughout, crisp detail, clarity
+selective_focus: selective focus, isolated subject, directed attention
+focus_breathing: focus breathing effect, subtle zoom during focus pull
+infinity_focus: infinity focus, everything distant sharp, landscape
+close_focus: close focus, near objects sharp, intimate detail
+zone_focusing: zone focusing technique, predetermined sharp area, street style
+
+# Camera Personality
+nervous_camera: nervous camera movement, jittery and anxious, unease
+calm_camera: calm camera movement, steady and measured, tranquility
+aggressive_camera: aggressive camera movement, confrontational, intensity
+playful_camera: playful camera movement, bouncy and energetic, whimsy
+stalking_camera: stalking camera movement, predatory following, menace
+floating_camera: floating camera movement, ethereal gliding, dreamlike
+drunk_camera: drunk camera effect, swaying and unfocused, intoxication
+clinical_camera: clinical camera movement, precise and detached, analytical
